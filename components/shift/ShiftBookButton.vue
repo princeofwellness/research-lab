@@ -79,7 +79,7 @@ const closeModal = () => {
             <span class="text-xl leading-none">&times;</span>
           </button>
           <iframe
-            :src="`${CAL_SHIFT_CONFIG.bookingUrl}?embed=true&theme=light`"
+            :src="`${CAL_SHIFT_CONFIG.bookingUrl}?embed=true&theme=light&date=2026-02-26`"
             class="w-full h-full border-0"
             title="Book THE SHIFT"
           />
