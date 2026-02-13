@@ -1,0 +1,324 @@
+{
+  "menu": {
+    "home": "Home",
+    "multimedia": "Multimedia",
+    "contact": "Contact",
+    "lightpaper": "Lightpaper",
+    "publications": "Publications",
+    "communitea": "Communitea",
+    "mindshift": "Mindshift"
+  },
+  "landingPage": {
+    "heroSection": {
+      "heading": "WHERE HUMANS & AI CO-EVOLVE",
+      "animationTexts": {
+        "quantum": "QUANTUM STATE",
+        "wavefunction": "Wavefunction Collapse",
+        "ideaCreation": "Idea Creation",
+        "possibility": "Infinite Possibility",
+        "ai": "AI & CO-CREATION",
+        "aiInhibitor": "AI as Inhibitor",
+        "cognitiveDissonance": "COGNITIVE DISSONANCE",
+        "redefiningStates": "Redefining States",
+        "beyondMaterial": "Beyond Material",
+        "infoCycle": "INFORMATION CYCLE",
+        "known": "Database of Known",
+        "collectiveConsciousness": "Collective Consciousness",
+        "outsideKnownFacts": "Outside Known Facts",
+        "deepWork": "DEEP WORK",
+        "derivedThinking": "Derived Thinking",
+        "refiningIdeas": "Refining Ideas",
+        "consciousnessStates": "CONSCIOUSNESS STATES",
+        "meditativeNotKnowing": "Meditative Not Knowing",
+        "flowState": "Flow State",
+        "emergingProps": "Emerging Properties"
+      },
+      "simple": "Simple"
+    },
+    "aboutSection": {
+      "heading": "ABOUT THE",
+      "headingLab": "LAB",
+      "text1": "{SWC} Research Lab is an experimental space for exploring tomorrow’s mindset — a platform for open experimentation and observation.",
+      "text2": "In the age of AI, we turn our attention to the human — how creativity transforms, how consciousness adapts, and how identity evolves in dialogue with non-human agents.",
+      "text3": "{SWC} Research Lab’s holistic practice combines analytical and intuitive approaches to build new languages for our shared future."
+    },
+    "projectsSection": {
+      "heading": "Ongoing Experiments",
+      "mindshiftHeading": "Mindshift",
+      "mindshiftDescription": "Automation without imagination just reproduces patterns. MINDSHIFT workshop introduces not only new AI frameworks, but also an understanding of the context, architecture, and emerging ecosystem around them.",
+      "mindshiftButton": "Enter Mindshift",
+      "communiteaHeading": "COMMUNITEA",
+      "communiteaDescription": "Tea, AI, and presence in one flow. A collective experiment in synchronizing minds and discovering knowledge together.",
+      "communiteaButton": "Learn More",
+      "protocolsHeading": "Future protocols",
+      "protocolsDescription": "Future Protocols is a monthly, freely accessible toolkit that highlights new patterns and offers mind-expanding practices—all to inspire your creative response to the Exponential Age.",
+      "protocolsButton": "LATEST PROTOCOL",
+      "colabHeading": "Co-laboration",
+      "colabDescription": "We partner with individuals and organizations to bring together visionaries, researchers, and creators through our interdisciplinary approach to human–AI co-creation.",
+      "colabButton": "Initiate contact",
+      "teahouseHeading": "Pop-up Tea House",
+      "teahouseDescription": "From September 22 to 26, SORRYWECAN Research Lab opens its experimental space to the public, bringing together tea and AI.",
+      "teahouseButton": "More details"
+    },
+    "frameworkSection": {
+      "framework": "Framework",
+      "circle1Heading": "Human Consciousness",
+      "circle1Desc": "Philosophy, ethics & cultural shifts",
+      "circle2Heading": "Creative Vision",
+      "circle2Desc": "Imagination, artistry & strategic thinking",
+      "circle3Heading": "AI & Data",
+      "circle3Desc": "Futuristic trends & innovations"
+    },
+    "protocolsSection": {
+      "heading": "Future Protocols",
+      "description": "A free, monthly curated toolkit for navigating the exponential era. Access thought experiments, practical exercises, implementation guides, and emerging methodologies for human-AI collaboration.",
+      "button": "Access protocols",
+      "successTitle": "You're Subscribed!",
+      "successText": "Thank you for joining our community! Stay tuned for the latest updates, news, and future protocols coming your way!",
+      "errorGeneric": "Oops, something went off track! Please give it another try.",
+      "errorEmail": "Please enter valid email address.",
+      "errorTitle": "Error"
+    }
+  },
+  "contactPage": {
+    "cto": "We invite you to connect with us",
+    "purposeOptions": {
+      "mindshift": "Program Inquiry MINDSHIFT",
+      "colab": "Collaboration Proposal",
+      "research": "Research Participation Interest",
+      "feedback": "Feedback on Existing Work",
+      "other": "Other"
+    },
+    "discoveryOptions": {
+      "social": "Social Media",
+      "search": "Online Search",
+      "event": "Industry Conference/Event",
+      "recommendation": "Recommendation",
+      "swc": "SORRYWECAN Visual Projects",
+      "media": "News/Media Coverage",
+      "partner": "Partner Organization",
+      "collaboration": "Previous Collaboration",
+      "protocols": "One of our Protocols",
+      "workshop": "Workshop/Presentation",
+      "other": "Other"
+    },
+    "labels": {
+      "purpose": "Purpose of Contact",
+      "name": "Name",
+      "email": "Email",
+      "organization": "Organization (if applicable)",
+      "message": "Your message or proposal",
+      "discovery": "How did you discover Research Lab? (Optional)",
+      "newsletterConsent": "I consent to receiving future protocols and updates",
+      "researchParticipation": "I'm interested in becoming a research participant"
+    },
+    "messagePlaceholder": "Message",
+    "submitButton": "Initiate contact",
+    "successTitle": "Success!",
+    "successMessage": "Your message has been sent successfully. We’ll be in touch shortly!",
+    "errorTitle": "Error",
+    "errorMessages": {
+      "generic": "Oops, something went off track! Please give it another try."
+    }
+  },
+  "lightpaper": {
+    "heroHeading": "WHERE HUMANS AND AI CO-EVOLVE",
+    "originsSection": {
+      "heading": "Origins",
+      "genesis": "Genesis of {RL_LOGO}",
+      "genesisText": "The idea of the lab emerged organically after all, at {SWC_LOGO}, being present at the turning points of change isn’t optional; that’s how we do what we do.",
+      "questionHeadline": "Our driving question",
+      "questionText": "We set out to discover how to build a dynamic, holistic system that responds to constantly shifting data. Key questions drove us:",
+      "question1": "* How do we track, capture, and creatively respond to emerging patterns?",
+      "question2": "* How do we integrate new systems seamlessly into our workflow?",
+      "question3": "* How do we develop an intuitive feel for this fast‐moving landscape?",
+      "philosophyHeading": "Core philosophy",
+      "philosophyParagraph1": "At ResearchLab, we believe creativity today isn’t limited to artists and writers it’s a necessity across all disciplines.",
+      "philosophyParagraph2": "This belief brought our initial in-house ideation group together, and we continue to grow. We share a unified vision: finding new ways to create knowledge beyond conventional scientific or cultural boundaries"
+    },
+    "visionSection": {
+      "heading": "Vision",
+      "paragraph1": "We explore the mechanisms of creativity, flow states, intuition, and human– AI collaboration to create an ecosystem where collective human intelligence meets artificial intelligence. By blending perspectives from business, art, science, magic, and technology, we uncover possibilities previously inconceivable.",
+      "paragraph2": "The human brain typically relies on established patterns to understand new ideas. At {RL_LOGO}, we use strategic cognitive dissonance to break these patterns and form new connections. Inspired by quantum physics, we identify and amplify those brief moments of insight that emerge outside conventional thinking frameworks.",
+      "paragraph3": "The interactive diagram visualizes the core concepts we take inspiration from across multiple fields. By mapping these concepts together, we can visualize how they inform each other in real-time. This representation is both a roadmap and a playground—showing where we’ve been and where we might go next, as we continue to refine our understanding of creativity, collective intelligence, and human–AI collaboration."
+    },
+    "ecosystemSection": {
+      "heading": "CREATIVE ECOSYSTEM",
+      "swcText": "Our parent company and creative ecosystem, home to a multimedia studio focused on the entertainment industry.{BR}{SWC_LOGO} communicates primarily through visuals, creating immersive shows, films, and experiences that push boundaries and challenge perceptions.",
+      "rlText": "While {SWC_LOGO} speaks through imagery, Research Lab articulates these ideas through words and thoughtful exploration.",
+      "text0": "We investigate AI, technology, and consciousness, providing the intellectual framework that complements {SWC_LOGO}’s visual expressions. We’re the yin to {SWC_LOGO}’s yang, they create visually striking experiences, while we provide the conceptual foundations to understand them.",
+      "subHeading1": "Inside Our Living Organism",
+      "text1": "{RL_LOGO} operates as a self-organizing ecosystem beyond traditional institutional structures. We unite visionaries from diverse fields: art, engineering, research, and philosophy to conduct experiments found nowhere else.{BR}In this environment, AI functions not merely as a tool but as an active partner, reshaping interactions and enabling new forms of collective intelligence. In what we call the \"Technosphere\" our expansive digital realm we develop hybrid intelligence models that merge human creativity with algorithmic capabilities."
+    },
+    "approachSection": {
+      "heading": "Our Approach",
+      "boldText": "What sets us apart is our interdisciplinary methodology.{BR}We examine AI and consciousness through multiple interconnected lenses:",
+      "artisticLabel": "Artistic:",
+      "artisticText": "Exploring creative applications and expressive potential",
+      "techLabel": "Technological:",
+      "techText": "Developing and implementing cutting‐edge systems",
+      "philosophicalLabel": "Philosophical:",
+      "philosophicalText": "Questioning implications and the fundamental nature of intelligence",
+      "engineeringLabel": "Engineering:",
+      "engineeringText": "Building practical solutions and frameworks",
+      "italicText": "By applying these perspectives together, we generate insights that single-discipline approaches miss. Problems typically addressed only through institutional, academic, or technological frameworks gain new dimensions when viewed through our integrated lens."
+    },
+    "initiativesSection": {
+      "heading": "CURRENT INITIATIVES",
+      "mindshift": {
+        "text": "AI capabilities are accelerating exponentially, doubling every 3-6 months and creating unprecedented disruption across industries.{BR}Yet the critical transformation isn’t technological, it’s cognitive.",
+        "text2": "{BOLD_MINDSHIFT} is our response to this fundamental challenge. We don’t teach AI tools; we reshape how you think alongside AI.",
+        "levelsHeading": "Three levels of cognitive transformation",
+        "levelTitle1": "1. MENTAL MODEL RECALIBRATION",
+        "levelText1": "We replace outdated “user” thinking patterns with frameworks for symbiotic intelligence, revealing opportunities invisible to conventional perspectives.",
+        "levelTitle2": "2. COLLABORATIVE COGNITION",
+        "levelText2": "Our neuroscience-based exercises develop fluid thinking with AI systems, creating an extended intelligence that transcends human and machine limitations.",
+        "levelTitle3": "3. ADAPTIVE INTUITION",
+        "levelText3": "MINDSHIFT enhances your capacity for intuitive connections across domains, the essence of innovation that no AI can replicate alone.",
+        "evolutionText": "In a landscape where technological adaptation outpaces natural cognitive evolution, MINDSHIFT doesn’t just prepare you for change it transforms how you perceive, think, and create alongside these new intelligence paradigms."
+      },
+      "protocols": {
+        "heading": "Future protocols",
+        "description": "Released monthly and freely accessible, these protocols document emerging methodologies at the frontier of human-AI collaboration. As traditional workflows transform into adaptive systems powered by AI-human synergy, FUTURE PROTOCOLS captures these new languages and frameworks as they emerge, providing a living roadmap for cognitive adaptation.",
+        "setsApart": "WHAT SETS FUTURE PROTOCOLS APART:",
+        "itemTitle1": "Adaptive Pattern Recognition:",
+        "itemText1": "Frameworks that identify connections across technology, consciousness, and creativity that remain invisible to siloed thinking",
+        "itemTitle2": "Perceptual Expansion Tools:",
+        "itemText2": "Practical methods that extend thinking beyond conventional boundaries and unlock previously inaccessible insights",
+        "itemTitle3": "Applied Hybrid Methodologies:",
+        "itemText3": "Actionable approaches for implementing emergent human-AI collaborative systems in real-world contexts",
+        "itemTitle4": "Cognitive Recalibration:",
+        "itemText4": "Thought experiments designed to restructure mental models for more effective engagement with complex systems",
+        "endText": "Each monthly protocol combines theory with immediate application, including practical exercises, implementation guides, case studies, and thought experiments."
+      },
+      "space": {
+        "heading": "Research Lab Space & AI Library",
+        "text1": "We are building a dedicated physical space featuring the first specialized AI library. Here, we train our own Large Language Models optimized for our unique research needs.",
+        "text2": "The space itself is an experiment in cognitive architecture we’ve designed the physical environment to reshape how people perceive and interact with their surroundings, creating ideal conditions for deeper creativity and expanded mental frameworks.",
+        "elementsHeading": "COGNITIVE ARCHITECTURE ELEMENTS",
+        "elementTitle1": "Physical Environment Design",
+        "elementText1": "Spaces designed to induce specific mental states through geometry, light, color, and sound",
+        "elementTitle2": "Specialized AI Training Infrastructure",
+        "elementText2": "Custom-built hardware and software systems for training models with research specific objectives",
+        "elementTitle3": "Human-AI Collaborative Workstations",
+        "elementText3": "Integrated systems designed to optimize the human-AI interface for maximum collaborative intelligence",
+        "elementTitle4": "Library of Specialized Knowledge",
+        "elementText4": "Curation of both physical and digital resources uniquely suited for interdisciplinary research at human-AI boundaries"
+      }
+    },
+    "futureSection": {
+      "heading": "Future",
+      "desc": "Our long-term vision is to create an AI-integrated research and knowledge ecosystem that evolves dynamically",
+      "itemTitle1": "AI-ASSISTED KNOWLEDGE INFRASTRUCTURE",
+      "itemText1": "Real-time research continuously updated and refined through human–AI collaboration",
+      "itemTitle2": "GLOBAL COLLABORATION NETWORK",
+      "itemText2": "Partnerships with institutions, independent researchers, and artists exploring hybrid intelligence",
+      "itemTitle3": "DECENTRALIZED RESEARCH NODES",
+      "itemText3": "Distributed centers for autonomous experimentation and knowledge sharing",
+      "itemTitle4": "EMERGENT PROCESS PROTOTYPES",
+      "itemText4": "Working models that demonstrate novel AI–human creative methodologies"
+    },
+    "timelineSection": {
+      "heading": "TIMELINE 2024–2030",
+      "desc": "Our vision unfolds across three distinct phases, each building upon the previous to create a progressive evolution of research capabilities and impact.",
+      "phase1": "Foundation Phase",
+      "phase2": "Scaling Phase",
+      "phase3": "Evolutionary Horizon",
+      "activitiesTitle1": "Foundation Phase Activities:",
+      "activities1": [
+        "Creating and testing AI-assisted research methodologies and case studies",
+        "Establishing partnerships with interdisciplinary institutions and creative minds",
+        "Developing AI-powered internal infrastructure and implementing it in {SWC_LOGO} workflows",
+        "Designing AI training methodology for both businesses and creative institutions"
+      ],
+      "activitiesTitle2": "Scaling Phase Activities:",
+      "activities2": [
+        "Expanding research infrastructure and integrating real-time AI knowledge networks",
+        "Producing large-scale speculative research projects and advanced AI systems integration",
+        "Establishing support for brilliant minds via residencies and grants",
+        "Nurturing the next generation of innovators at the human–AI frontier"
+      ],
+      "activitiesTitle3": "Evolutionary Horizon Activities:",
+      "activities3": [
+        "Implementing fully functional AI–human research environments",
+        "Creating dynamic, real-time evolving knowledge systems",
+        "Driving institutional transformation and rethinking the nature of research itself",
+        "Exploring Brain–Computer interface applications and implications"
+      ]
+    },
+    "ethicalFrameworkSection": {
+      "heading": "ETHICAL FRAMEWORK",
+      "desc": "Our work is guided by the “Symbiotic Ethics” framework we’ve developed specifically for human-AI collaboration:",
+      "title1": "MUTUAL ENHANCEMENT:",
+      "text1": "All technologies must augment human capability rather than replace it",
+      "title2": "COGNITIVE DIVERSITY:",
+      "text2": "Systems must preserve and enhance diverse modes of thinking",
+      "title3": "TRANSPARENT EVOLUTION:",
+      "text3": "Changes in AI systems must be comprehensible and trackable",
+      "title4": "DISTRIBUTED BENEFIT:",
+      "text4": "Advances must be accessible beyond privileged institutions",
+      "title5": "ECOLOGICAL INTEGRATION:",
+      "text5": "Technologies must be developed with awareness of broader systemic impacts"
+    },
+    "endingSection": {
+      "heading1": "JOIN OUR EXPLORATION",
+      "heading2": "WHERE HUMANS AND AI THINK TOGETHER",
+      "text1": "We invite those resonant with our frequency to join this living exploration, not merely a research initiative but an emergent entity in itself, continuously evolving at the boundless frontier of what consciousness might become.",
+      "subheading": "HOW TO ENGAGE WITH US",
+      "text2": "We set out to discover how to build a dynamic, holistic system that responds to constantly shifting data. Key questions drove us:",
+      "itemName1": "Collaborators",
+      "itemText1": "Reach out with your proposal if you’re a researcher, artist, or technologist interested in collaborative projects",
+      "itemName2": "Participants",
+      "itemText2": "Join our workshops and events to experience our methodologies firsthand",
+      "itemName3": "Supporters",
+      "itemText3": "Contribute to our vision through patronage and resource sharing",
+      "itemName4": "Pioneers",
+      "itemText4": "Apply to our residency program (launching 2025) for immersive exploration",
+      "endHeading": "Research. Rewire. Recreate.",
+      "downloadButton": "Download Lightpaper (PDF)"
+    }
+  },
+  "teahousePage": {
+    "startDate": "22.09.25",
+    "endDate": "26.09.25",
+    "description": "From September {STARTBOLD}22 to 26{ENDBOLD}, {SWC_LOGO} {RL_LOGO} opens its experimental space to the public, bringing together tea and AI.",
+    "listItem1": "{STARTBOLD}Daytime (10:00–18:00):{ENDBOLD} The Lab transforms into a teahouse and creative hub, where visitors can relax, work, and connect with others.",
+    "listItem2": "{STARTBOLD}Evenings (from 18:00):{ENDBOLD} The space comes alive with lectures and discussions featuring invited guests from the humanities and technology.",
+    "conclusion": "In collaboration with Konomi Teahouse, tea becomes more than a drink. It becomes a shared ritual of presence and imagination.",
+    "disclaimer": "Participants in Tea Sessions, Mindshift, and Pop Up Teahouse are informed that meetings may be recorded and that video or audio material may be captured.",
+    "speakers": {
+      "roman": {
+        "title": "The Role of the {BR}Human of the {BR}Future. Zen AI",
+        "role": "Transformational Designer",
+        "description": "Roman Pii Wagner is a transformational designer with more than 30 years of experience as an owner in the field of technological innovation, which led him to develop the methodology of transformational design. Today he helps companies reshape their business models in the age of AI and guides them through transformation. His work is also enriched with a spiritual dimension, bringing a human and holistic approach into transformational processes."
+      },
+      "luis": {
+        "title": "AI Consciousness: {BR}{BR}Is It a Possibility? {BR}On the Role of Subjectivity {BR}in Human‑machine Cooperation",
+        "role": "Artist, Researcher, and Innovation Strategist",
+        "description": "Luis Miguel Girão is an artist–researcher and innovation strategist exploring the intersections of technology, consciousness, and art. With a PhD on the artistic modulation of consciousness through bioelectromagnetic stimulation, his work investigates how subjectivity and subtle human qualities can inform our cooperation with AI and other emerging technologies."
+      },
+      "andras": {
+        "title": "The Softness of Text, {BR}or Is Another {BR}World Possible?",
+        "role": "Visual Artist, Co-founder of the Digital Arts Platform {BR}at the Academy of Fine Arts and Design in Bratislava",
+        "description": "András Cséfalvay is a visual artist, digital storyteller, musician, and mythopoet from Bratislava, and an associate professor at the Academy of Fine Arts and Design in Bratislava. After studying painting and mathematics, he wrote his doctoral thesis on the usefulness and reality of fiction. He is interested in the relationship between culture and technology, as well as the political and ethical aspects of listening to non-dominant voices in the interpretation of the world."
+      },
+      "michal": {
+        "title": "A Soft Future:{BR}How to Cultivate Humanity{BR} in the Architecture{BR}of the Digital Age",
+        "role": "Architectural Psychologist",
+        "description": "Michal Matloň is an architectural psychologist focusing on creating environments that support human well-being and mental health. He studies how spaces influence behavior, thinking, and emotional experience.{BR}{BR}He has worked for one of Europe’s largest office developers, where he co-created user experience strategies and co-founded an internal educational program. Later, he joined a consulting company in Vienna founded by cognitive scientists from the University of Vienna. He also promotes architectural psychology through the initiative Namiesto.{BR}{BR}He publishes articles and multimedia educational content and contributes to academic books. He was also a co-founder of the newsletter Venetian Letter. He regularly speaks at international conferences and lectures architecture students."
+      }
+    }
+  },
+  "teahousePopup": {
+    "joinUs": "Join us",
+    "at": "at",
+    "info": "Step inside for a week of exploration:{BR}SORRYWECAN RESEARCHLAB opens to public bringing together tea and AI",
+    "learnMore": "Learn more"
+  },
+  "mindshiftPopup": {
+    "label": "February 26 · Bratislava",
+    "headline": "Mindshift is happening.",
+    "subline": "In 3 hours, you'll see what took us years to learn.",
+    "cta": "Learn More"
+  }
+}

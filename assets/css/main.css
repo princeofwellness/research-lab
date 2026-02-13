@@ -1,0 +1,13 @@
+
+
+body {
+    font-family: 'Proxima Nova';
+    background-color: var(--bg-color)
+}
+
+.font-source-code-pro {
+    font-family: 'Source Code Pro', serif!important;
+}
+.font-proxima {
+    font-family: 'Proxima Nova', serif!important;
+}

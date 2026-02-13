@@ -1,0 +1,12 @@
+{
+  "extends": "../.nuxt/tsconfig.server.json",
+  "files": [
+    "context.d.ts"
+  ],
+  "compilerOptions": {
+    "target": "es6",
+    //Previousely es2016
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "menu": {
+    "home": "Domov",
+    "multimedia": "Multimédia",
+    "contact": "Kontakt",
+    "lightpaper": "Lightpaper",
+    "publications": "Publikacie",
+    "communitea": "Communitea",
+    "mindshift": "Mindshift"
+  },
+  "landingPage": {
+    "heroSection": {
+      "heading": "SPOLOČNÝ VÝVOJ ĽUDÍ A UMELEJ INTELIGENCIE",
+      "animationTexts": {
+        "quantum": "Kvantový stav",
+        "wavefunction": "Kolaps vlnovej funkcie",
+        "ideaCreation": "Tvorba nápadov",
+        "possibility": "Nekonečnosť možností",
+        "ai": "AI a spolutvorba",
+        "aiInhibitor": "AI ako inhibítor",
+        "cognitiveDissonance": "Kognitívna disonancia",
+        "redefiningStates": "Predefinovanie stavov",
+        "beyondMaterial": "Za hranicou hmoty",
+        "infoCycle": "INFROMAČNÝ CYKLUS",
+        "known": "Databáza vedomia",
+        "collectiveConsciousness": "Kolektívne vedomie",
+        "outsideKnownFacts": "Mimo známych faktov",
+        "deepWork": "HLBOKÁ PRÁCA",
+        "derivedThinking": "Odvodené myslenie",
+        "refiningIdeas": "Redefinícia nápadov",
+        "consciousnessStates": "VEDOMÉ STAVY",
+        "meditativeNotKnowing": "Meditatívna nevedomosť",
+        "flowState": "Stav úplného ponorenia sa",
+        "emergingProps": "Nové vlastnosti"
+      },
+      "simple": "Simple"
+    },
+    "aboutSection": {
+      "heading": "O",
+      "headingLab": "LABE",
+      "text1": "Research Lab v {SWC} je experimentálny priestor vyvíjajúci holistický prístup ku ko-evolúcii ľudského vedomia a umelej inteligencie.",
+      "text2": "Nachádza sa v zrekonštruovanej budove z komunistickej éry a funguje ako nový typ inštitúcie -  ako observatórium aj laboratórium - ktoré sa zameriava na nové spôsoby vnímania, vedomia a strategickej reakcie na paradigmatické zmeny.",
+      "text3": "Je to miesto, kde sa stretávajú odborníci z rôznych profesii – kde umelci, vedci a inžinieri spolupracujú na skúmaní nových spôsobov ako formovať našu spoločnú budúcnosť."
+    },
+    "projectsSection": {
+      "heading": "Aktuálne projekty",
+      "mindshiftHeading": "Mindshift",
+      "mindshiftDescription": "Viac než len workshop o umelej inteligencii - je to strategická kognitívna evolúcia. Mindshift mení spôsob, akým organizácie vnímajú príležitosti a vytvárajú hodnotu, prostredníctvom rozvoja mentálnych modelov, ktoré vidia za hranice bežného myslenia.",
+      "mindshiftButton": "Vstúpte do Mindshiftu",
+      "protocolsHeading": "Future protocols",
+      "protocolsDescription": "Mesačný bezplatný toolkit, ktorý ponúka nové vzorce a myseľ rozširujúce cvičenia na inšpiráciu kreatívnych reakcií na Exponenciálny vek.",
+      "protocolsButton": "Prístup k protokolom",
+      "colabHeading": "Ko-Laborácia",
+      "colabDescription": "Partnerstvá s jednotlivcami a organizáciami s cieľom spájať vizionárov, výskumníkov a tvorcov prostredníctvom interdisciplinárnej spolutvorby medzi človekom a umelou inteligenciou.",
+      "colabButton": "Iniciovať kontakt",
+      "teahouseHeading": "Pop-up Tea House",
+      "teahouseDescription": "SORRYWECAN RESEARCH LAB v septembri otvára svoj experimentálny priestor verejnosti prepájajúc čaj a AI.",
+      "teahouseButton": "Podrobnosti",
+      "communiteaHeading": "COMMUNITEA",
+      "communiteaDescription": "Tea, AI, and presence in one flow. A collective experiment in synchronizing minds and discovering knowledge together.",
+      "communiteaButton": "Learn More"
+    },
+    "frameworkSection": {
+      "framework": "Framework",
+      "circle1Heading": "Ľudské Vedomie",
+      "circle1Desc": "Filozofia, etika a kultúrne zmeny",
+      "circle2Heading": "Kreatívna Vízia",
+      "circle2Desc": "Predstavivosť, umenie a strategické myslenie",
+      "circle3Heading": "AI a dáta",
+      "circle3Desc": "Futuristické trendy a inovácie"
+    },
+    "protocolsSection": {
+      "cto": "ROZŠÍRTE SVOJE KOGNITÍVNE HORIZONTY",
+      "heading": "Future Protocols",
+      "description": "Bezplatný, mesačne kurátorovaný toolkit vytvorený na ľahšiu orientáciu v exponenciálnej ére. Obsahuje myšlienkové experimenty, praktické cvičenia, návody na implementáciu a nové metodológie pre spoluprácu človeka s umelou inteligenciou.",
+      "button": "Otvoriť protokoly",
+      "successTitle": "Odoberáte novinky!",
+      "successText": "Thank you for joining our community! Stay tuned for the latest updates, news, and future protocols coming your way!",
+      "errorGeneric": "Ups, niečo sa pokazilo! Skúste to prosím znovu.",
+      "errorEmail": "Zadajte platnú e-mailovú adresu.",
+      "errorTitle": "Chyba"
+    }
+  },
+  "contactPage": {
+    "cto": "Neváhajte sa s nami spojiť",
+    "purposeOptions": {
+      "mindshift": "Dopyt po programe MINDSHIFT",
+      "colab": "Návrh spolupráce",
+      "research": "Záujem o participáciu vo výskume",
+      "feedback": "Spätná väzba",
+      "other": "Iné"
+    },
+    "discoveryOptions": {
+      "social": "Sociálne médiá",
+      "search": "Vyhľadávač",
+      "event": "Odborná konferencia/podujatie",
+      "recommendation": "Odporúčanie",
+      "swc": "Vizuálne projekty SORRYWECAN",
+      "media": "Mediálne pokrytie",
+      "partner": "Partnerská organizácia",
+      "collaboration": "Predchádajúca spolupráca",
+      "protocols": "Jeden z našich protokolov",
+      "workshop": "Workshop/prezentácia",
+      "other": "Iné"
+    },
+    "labels": {
+      "purpose": "Účel kontaktu",
+      "name": "Meno",
+      "email": "Email",
+      "organization": "Organizácia (ak je to relevantné)",
+      "message": "Vaša správa alebo podnet",
+      "discovery": "Ako ste objavili Research Lab? (Dobrovoľné)",
+      "newsletterConsent": "Súhlasím s príjmaním future protocols a noviniek",
+      "researchParticipation": "Mám záujem stať sa participantom výskumu"
+    },
+    "messagePlaceholder": "Správa",
+    "submitButton": "Iniciovať kontakt",
+    "successTitle": "Podarilo sa!",
+    "successMessage": "Vaša správa bola úspešne odoslaná. Ozveme sa vám čoskoro!",
+    "errorTitle": "Chyba",
+    "errorMessages": {
+      "generic": "Ups, niečo sa pokazilo! Skúste to prosím znovu."
+    }
+  },
+  "lightpaper": {
+    "heroHeading": "SPOLOČNÝ VÝVOJ ĽUDÍ A UMELEJ INTELIGENCIE",
+    "originsSection": {
+      "heading": "Pôvod",
+      "genesis": "Genesis of {RL_LOGO}",
+      "genesisText": "Laboratórium vzniklo organicky z {SWC_LOGO}, kde je prítomnosť pri zlomových momentoch zmien súčasťou našej identity.",
+      "questionHeadline": "Naša ústredná otázka je",
+      "questionText": "Ako vybudovať dynamický a holistický systém, ktorý dokáže reagovať na neustále sa meniace údaje? Pýtame sa:",
+      "question1": "* Ako môžeme sledovať a tvorivo reagovať na vznikajúce vzorce?",
+      "question2": "* Ako vieme integrovať nové systémy do našich pracovných postupov?",
+      "question3": "* Ako si môžeme vybudovať intuitívny cit pre toto rýchlo sa meniace prostredie?",
+      "philosophyHeading": "Core philosophy",
+      "philosophyParagraph1": "Kreativita nie je výlučným atribútom umelcov - je nevyhnutná vo všetkých disciplínach.",
+      "philosophyParagraph2": "Práve toto presvedčenie stálo pri zrode našej internej ideovej skupiny, ktorá sa naďalej rozvíja."
+    },
+    "visionSection": {
+      "heading": "Vízia",
+      "paragraph1": "Skúmame kreativitu, stav úplného ponorenia sa (flow), intuíciu a spoluprácu človeka s umelou inteligenciou s cieľom vytvoriť ekosystém, kde sa kolektívna ľudská inteligencia stretáva s umelou inteligenciou. Prepájaním rôznych perspektív z oblasti biznisu, umenia, vedy, mágie a technológií odhaľujeme doteraz nepredstaviteľné možnosti.",
+      "paragraph2": "Ľudský mozog sa väčšinou spolieha na už zaužívané paterny pri vyhodnocovaní a tvorbe nových nápadov. V {RL_LOGO} sa snažíme pretvárať tieto vzorce pomocou strategickej kognitívnej disonancie a vytvárať tak priestor pre nové spojenia. Inšpirovaní kvantovou fyzikou sa snažíme identifikovať a znásobovať krátke momenty nahliadnutia do myslenia mimo konvenčných štruktúr.",
+      "paragraph3": "Interaktívny diagram vizualizuje kľúčové koncepty, z ktorých čerpáme inšpiráciu naprieč rôznymi odbormi. Mapovaním týchto konceptov na jednom mieste si vieme lepšie vizualizovať, ako sa navzájom ovplyvňujú v reálnom čase. Je to mapa aj ihrisko,  ukazuje, kde sme boli a kam by sme mohli ďalej smerovať, zatiaľ čo naďalej prehlbujeme naše chápanie kreativity, kolektívnej inteligencie a spolupráce medzi človekom a umelou inteligenciou."
+    },
+    "ecosystemSection": {
+      "heading": "Kreatívny ekosystém",
+      "swcText": "Naša materská spoločnosť a kreatívny ekosystém, domov multimediálneho štúdia zameraného na zábavný priemysel.{SWC_LOGO} komunikuje primárne cez vizuály, vytvára pohlcujúce imersívne shows, filmy a zážitky, ktoré posúvajú hranice a zotázňujú zaužívané predstavy.",
+      "rlText": "Zatiaľ čo sa (SWC_LOGO) vyjadruje prostredníctvom vizuálnej tvorby, Research Lab artikuluje tieto myšlienky slovami a premysleným skúmaním.",
+      "text0": "Prostredníctvom skúmania umelej inteligencie, technológie a vedomia poskytujeme intelektuálny rámec, ktorý dopĺňa vizuálne vyjadrenia {SWC_LOGO}. My sme yin k {SWC_LOGO} yang, oni vytvárajú vizuálne polhcujúce zážitky, zatiaľ čo my poskytujeme konceptuálne základy na ich pochopenie.",
+      "subHeading1": "Vnútri nášho živého organizmu",
+      "text1": "{RL_LOGO} funguje ako samoorganizujúci sa ekosystém mimo tradičných inštitucionálnych štruktúr. Spájame vizionárov z rôznych oblastí: umenie, inžinierstvo, výskum a filozofia, na realizáciu experimentov, ktoré nikde inde nenájdete. {BR} V tomto prostredí nefunguje umelá inteligencia len ako nástroj, ale ako aktívny partner, ktorý pretvára interakcie a umožňuje nové formy kolektívnej inteligencie. V tom, čo nazývame „Technosféra“, náš rozšírený digitálny svet, vyvíjame modely hybridnej inteligencie, ktoré spájajú ľudskú kreativitu s algoritmickými schopnosťami."
+    },
+    "approachSection": {
+      "heading": "Náš prístup",
+      "boldText": "Interdisciplinárna metodológia kombinujúca:",
+      "artisticLabel": "Umenie:",
+      "artisticText": "Kreatívne využitie a prejav",
+      "techLabel": "Technológiu:",
+      "techText": "Novodobé systémy",
+      "philosophicalLabel": "Filozofiu:",
+      "philosophicalText": "Podstata a význam inteligencie",
+      "engineeringLabel": "Inžinierstvo:",
+      "engineeringText": "Praktické rámce a štruktúry",
+      "italicText": "Spájaním týchto perspektív získavame poznatky, ktoré by pri prístupe z pohľadu jednej disciplíny zostali nepovšimnuté. Problémy, ktoré sa zvyčajne riešia len prostredníctvom inštitucionálnych, akademických alebo technologických rámcov, nadobúdajú nové rozmery pri pohľade cez našu integrovanú optiku."
+    },
+    "initiativesSection": {
+      "heading": "Prebiehajúce iniciatívy",
+      "mindshift": {
+        "text": "Schopnosti umelej inteligencie rastú exponenciálne, zdvojnásobujú sa každých 3–6 mesiacov a spôsobujú bezprecedentné narušenie naprieč odvetviami.{BR}Skutočne zásadná zmena však nie je technologická, ale kognitívna.",
+        "text2": "{BOLD_MINDSHIFT} je naša reakcia na túto zmenu. Neučíme ako používať umelú inteligenciu ako nástroj; pretvárame spôsob, akým rozmýšľate spolu s ňou.",
+        "levelsHeading": "Tri levely kognitívnej transformácie",
+        "levelTitle1": "1. REKALIBRÁCIA MENTÁLNYCH MODELOV",
+        "levelText1": "Nahrádzame zastarané vzorce myslenia \"užívateľa\" rámcami pre symbiotickú inteligenciu, čím odhaľujeme príležitosti, ktoré sú neviditeľné pre konvenčné perspektívy.",
+        "levelTitle2": "2. KOLABORATÍVNA KOGNÍCIA",
+        "levelText2": "Naše neurovedou podložené cvičenia rozvíjajú fluidné myslenie so systémami umelej inteligencie, čím posúvame inteligenciu za hranice ľudských a systémových limitácií.",
+        "levelTitle3": "3. ADAPTÍVNA INTUÍCIA",
+        "levelText3": "MINDSHIFT zvyšuje vašu schopnosť vytvárať intuitívne prepojenia naprieč rôznymi oblasťami. Podstatu inovácie, ktorú umelá inteligencia nedokáže sama napodobniť.",
+        "evolutionText": "V prostredí, kde technologická adaptácia predbieha prirodzený kognitívny vývoj, MINDSHIFT vás nielen pripravuje na zmenu ale mení spôsob, akým vnímate, premýšľate a tvoríte v súlade s novými paradigmami inteligencie."
+      },
+      "protocols": {
+        "heading": "Future protocols",
+        "description": "Tieto protokoly, vydávané mesačne a voľne prístupné, dokumentujú vznikajúce metodiky na pomedzí spolupráce človeka a umelej inteligencie. Zatiaľ čo sa tradičné pracovné postupy transformujú na adaptívne systémy poháňané synergiou medzi človekom a umelou inteligenciou, FUTURE PROTOCOLS zachytáva tieto nové prístupy a rámce v momente ich vzniku a poskytuje tak živú mapu pre kognitívnu adaptáciu.",
+        "setsApart": "V ČOM SÚ FUTURE PROTOCOLS INÉ:",
+        "itemTitle1": "Adaptívne rozpoznávanie vzorov:",
+        "itemText1": "Štruktúry, ktoré identifikujú prepojenia naprieč technológiou, vedomím a kreativitou.",
+        "itemTitle2": "Nástroje na rozšírenie vnímania:",
+        "itemText2": "Praktické metódy, ktoré rozširujú myslenie za hranice konvenčných rámcov a odhaľujú doteraz nedostupné poznatky",
+        "itemTitle3": "Aplikované hybridné metodológie:",
+        "itemText3": "Praktické prístupy na implementáciu vznikajúcich kolaboratívnych systémov človek a umelej inteligencie v reálnych podmienkach.",
+        "itemTitle4": "Kognitívna rekalibrácia:",
+        "itemText4": "Myšlienkové experimenty navrhnuté na reštrukturalizáciu mentálnych modelov s cieľom efektívnejšieho interagovania s komplexnými systémami.",
+        "endText": "Protokol každý mesiac kombinuje teóriu s okamžitou aplikáciou, vrátane praktických cvičení, návodov na implementáciu, prípadových štúdií a myšlienkových experimentov."
+      },
+      "space": {
+        "heading": "Research Lab a knižnica umelej inteligencie",
+        "text1": "Budujeme špecifický fyzický priestor, ktorý bude obsahovať prvú špecializovanú knižnicu pre umelú inteligenciu. Tu trénujeme naše vlastné veľké jazykové modely (LLM) optimalizované pre naše jedinečné výskumné potreby.",
+        "text2": "Samotný priestor je experimentom kognitívnej architektúry. Vytvorili sme fyzický priestor na preformovanie spôsobu, akým ľudia vnímajú a interagujú so svojím okolím, čím sa vytvárajú ideálne podmienky pre hlbšiu kreativitu a rozšírenie mentálnych rámcov.",
+        "elementsHeading": "kognitívne architektonické elementy",
+        "elementTitle1": "Návrh fyzického prostredia",
+        "elementText1": "Špeciálne navrhnuté priestory na podporu špecifických mentálnych stavov prostredníctvom geometrie, svetla, farieb a zvuku.",
+        "elementTitle2": "Špecializovaná infraštruktúra na trénovanie umelej inteligencie.",
+        "elementText2": "Na mieru vytvorené hardvérové a softvérové systémy na trénovanie modelov so špecifickými výskumnými cieľmi.",
+        "elementTitle3": "Kolaboratívne pracovné stanice vytvorené na spoluprácu človeka a umelej inteligencie.",
+        "elementText3": "Integrované systémy navrhnuté na optimalizáciu spojenia medzi človekom a umelou inteligenciou s cieľom dosiahnuť maximálnu úroveň kolaboratívnej inteligencie.",
+        "elementTitle4": "Špecializovaná knižnica",
+        "elementText4": "Zbierka fyzických a digitálnych zdrojov, jedinečne prispôsobených pre interdisciplinárny výskum na pomedzí človeka a AI"
+      }
+    },
+    "futureSection": {
+      "heading": "Budúcnosť",
+      "desc": "Našou dlhodobou víziou je vytvorenie výskumu poháňaného umelou inteligenciou a dynamicky sa vyvíjajúceho vedomostného ekosystému",
+      "itemTitle1": "Vedomostná infraštruktúra podporovaná umelou inteligenciou",
+      "itemText1": "Neustále aktualizovaný a zdokonaľovaný výskum v reálnom čase prostredníctvom spolupráce medzi človekom a umelou inteligenciou.",
+      "itemTitle2": "Globálna kolaboratívna sieť",
+      "itemText2": "Partnerstvá s inštitúciami, nezávislými výskumníkmi a umelcami skúmajúcimi hybridnú inteligenciu.",
+      "itemTitle3": "DECENTRALIZOVANÉ VÝSKUMNÉ UZLY",
+      "itemText3": "Distribuované centrá pre autonómne experimentovanie a zdieľanie vedomostí.",
+      "itemTitle4": "PROTOTYPY EMERGENTNÝCH PROVESOV",
+      "itemText4": "Pracovne modely, ktoré demonštrujú nové kreatívne metodológie spolupráce medzi umelou inteligenciou a človekom."
+    },
+    "timelineSection": {
+      "heading": "Časová os 2024–2030",
+      "desc": "Naša vízia sa rozvíja v troch odlišných fázach, z ktorých každá nadväzuje na predchádzajúcu a vytvára postupnú evolúciu výskumných schopností a dopadu.",
+      "phase1": "Fáza zakladanie",
+      "phase2": "Fáza škálovania",
+      "phase3": "Evolučný horizont",
+      "activitiesTitle1": "Aktivity fázy zakladania: ",
+      "activities1": [
+        "Vytváranie a testovanie výskumných metodológií a štúdií podporovaných umelou inteligenciou",
+        "Nadväzovanie partnerstiev s interdisciplinárnymi inštitúciami a kreatívnymi osobnosťami",
+        "Vývoj infraštruktúry poháňanej umelou inteligenciou a jej implementácia do pracovných procesov {SWC_LOGO}",
+        "Navrhovanie metodológie školení v oblasti umelej inteligencie pre podnikové subjekty a kreatívne inštitúcie"
+      ],
+      "activitiesTitle2": "Aktivity škálovacej fázy:",
+      "activities2": [
+        "Rozširovanie výskumnej infraštruktúry a integrácia znalostných sietí umelej inteligencie v reálnom čase",
+        "Vytváranie rozsiahlych špekulatívnych výskumných projektov a integrácia pokročilých systémov umelej inteligencie",
+        "Tvorba podpory pre výnimočných mysliteľov prostredníctvom rezidencií a grantov",
+        "Podpora novej generácie inovátorov na čele výskumu rozhrania človeka a umelej inteligencie"
+      ],
+      "activitiesTitle3": "Aktivity na evolučnom horizonte výskumu:",
+      "activities3": [
+        "Implementácia plne funkčných AI-ľudských výskumných prostredí",
+        "Vytváranie dynamických, v reálnom čase sa vyvíjajúcich znalostných systémov",
+        "Poháňanie inštitucionálnej transformácie a prehodnocovanie samotnej podstaty výskumu",
+        "Skúmanie aplikácií a dôsledkov rozhrania mozog-počítač (BCI)"
+      ]
+    },
+    "ethicalFrameworkSection": {
+      "heading": "Etický rámec",
+      "desc": "Naša práca sa riadi štruktúrou „Symbiotickej etiky“, ktorú sme vyvinuli špeciálne pre spoluprácu medzi človekom a umelou inteligenciou:",
+      "title1": "VZÁJOMNÝ ROZVOJ:",
+      "text1": "Všetky technológie by mali podporovať ľudské schopnosti, nie ich nahrádzať",
+      "title2": "KOGNITÍVNA DIVERZITA:",
+      "text2": "Systémy musia zachovávať a podporovať rôznorodé myslenie",
+      "title3": "TRANSPARENTNÁ EVOLÚCIA:",
+      "text3": "Zmeny v systémoch umelej inteligencie musia byť zrozumiteľné a sledovateľné.",
+      "title4": "DISTRIBUOVANÝ BENEFIT:",
+      "text4": "Pokroky musia byť prístupné aj mimo privilegovaných inštitúcií.",
+      "title5": "EKOLOGICKÁ INTEGRÁCIA:",
+      "text5": "Technológie musia byť vyvíjané s vedomím širších systémových dopadov."
+    },
+    "endingSection": {
+      "heading1": "PRIDAJTE SA K NAŠEJ EXPLORÁCII",
+      "heading2": "KDE ĽUDIA A UMELÁ INTELIGENCIA MYSLIA SPOLOČNE",
+      "text1": "Pozývame tých, ktorí rezonujú s našou frekvenciou, aby sa pripojili k tejto živej explorácii. Nie len k výskumnej iniciatíve, ale k samotnej vznikajúcej entite, ktorá sa neustále vyvíja na nekonečnej hranici toho, čím by vedomie mohlo byť.",
+      "subheading": "AKO SA S NAMI SPOJIŤ",
+      "text2": "Zamerali sme sa na objavovanie spôsobov, ako vytvoriť dynamický a holistický systém, ktorý dokáže reagovať na neustále sa meniace údaje. Viedli nás pri tom kľúčové otázky:",
+      "itemName1": "KOLABORÁTORI",
+      "itemText1": "Ak ste výskumník/výskumníčka, umelec/umelkyňa alebo technológ/technológička a radi by ste spolupracovali na našich projektoch, ozvite sa nám.",
+      "itemName2": "Participanti",
+      "itemText2": "Zúčastnite sa našich workshopov a podujatí, aby ste mohli naše metodológie mohli zažiť na vlastnej koži. ",
+      "itemName3": "Podporovatelia",
+      "itemText3": "Prispejte k našej vízii formou patronátu a zdieľania zdrojov.",
+      "itemName4": "Priekopníci",
+      "itemText4": "Prihlásiť sa na náš rezidenčný program (spúšťame v roku 2025) na imerzívnu exploráciu.",
+      "endHeading": "Preskúmaj, Prepíš, Pretvor.",
+      "downloadButton": "Stiahnúť Lightpaper (PDF)"
+    }
+  },
+  "teahousePage": {
+    "startDate": "22.09.25",
+    "endDate": "26.09.25",
+    "description": "Dôležitou súčasťou {SWC_LOGO} je komunita a preto od {STARTBOLD}22. do 26.{ENDBOLD} septembra otvárame v našich priestoroch Pop- up Tea House, prepájajúc čaj a umelú inteligenciu. Počas večerov sa priestor premení na živú scénu s prednáškami a diskusiami hostí a hostiek z oblastí humanitných vied a technológií.",
+    "listItem1": "{STARTBOLD}10.00 - 18.00{ENDBOLD} ResearchLab ako teahouse, miesto na oddych, prácu, stretnutia a prepojenia. V spolupráci s Konomi Teahouse",
+    "listItem2": "{STARTBOLD}Od 18.00{ENDBOLD} sa ResearchLab sa premení na živú scénu s prednáškami a diskusiami hostí a hostiek z oblastí humanitných vied a technológií.",
+    "conclusion": "V spolupráci s Konomi Teahouse je pre nás čaj viac ako nápoj. Stáva sa spoločným rituálom predstavivosti a prítomnosti.",
+    "disclaimer": "Účastníci a účastníčky Tea sessions, Mindshift a Pop up teahouse sú informovaní o tom, že stretnutia môžu byť nahrávané a že môže byť zaznamenávaný obrazový alebo zvukový materiál.",
+    "speakers": {
+      "roman": {
+        "title": "Rola človeka budúcnosti. Zen AI",
+        "role": "Transformačný dizajnér",
+        "description": "Roman Pii Wagner je transformačný dizajnér s viac než 30-ročnou skúsenosťou v pozícii ownera v oblasti technologických inovácií, ktoré ho priviedli k metodike transformačného dizajnu. Dnes pomáha firmám pretvárať ich biznis modely v dobe AI a prevádzať ich transformáciou. Jeho práca je obohatená aj duchovným rozmerom, ktorý prináša do transformačných procesov ľudský a holistický prístup."
+      },
+      "luis": {
+        "title": "Môže mať AI vedomie?{BR} Subjektivita v spolupráci medzi človekom a strojom.",
+        "role": "Umelec, výskumník a inovačný stratég",
+        "description": "Luis Miguel Girão je umelec–výskumník a inovačný stratég, ktorý skúma prieniky technológie, vedomia a umenia. S doktorátom z umeleckej modulácie vedomia prostredníctvom bioelektromagnetickej stimulácie skúma, ako môže subjektivita a jemnocitné ľudské črty obohatiť našu spoluprácu s AI a ďalšími novými technológiami."
+      },
+      "andras": {
+        "title": "Mäkkosť textu, alebo je iný svet možný?",
+        "role": "Vizuálny umelec, spoluzakladateľ Platformy digitálnych umení na VŠVU",
+        "description": "András Cséfalvay je vizuálny umelec, digitálny rozprávač, hudobník a mytopoet z Bratislavy, zároveň docent na Vysokej škole výtvarných umení v Bratislave. Po štúdiu maľby a matematiky napísal dizertačnú prácu na tému užitočnosti a reality fikcie. Zaujíma sa o vzťah medzi kultúrou a technológiou, ako aj o politické a etické aspekty počúvania nedominantných hlasov pri interpretácii sveta."
+      },
+      "michal": {
+        "title": "Mäkká budúcnosť: {BR}Ako pestovať ľudskosť v architektúre digitálnej doby",
+        "role": "Psychológ architektúry",
+        "description": "Michal Matloň je psychológ architektúry, ktorý sa zameriava na tvorbu prostredí podporujúcich ľudský well-being a duševné zdravie. Skúma, ako priestor ovplyvňuje správanie, myslenie a emocionálne prežívanie.{BR}{BR}Pôsobil u jedného z najväčších európskych kancelárskych developerov, kde spoluvytváral stratégiu používateľskej skúsenosti a spoluzaložil interný vzdelávací program. Neskôr pracoval v konzultačnej firme vo Viedni, založenej kognitívnymi vedcami z Viedenskej univerzity. Venuje sa aj popularizácii psychológie architektúry v rámci iniciatívy Namiesto.{BR}{BR}Publikuje články a multimediálny vzdelávací obsah a prispieva do odborných knižných publikácií. Bol tiež spoluzakladateľom newslettra Venetian Letter. Pravidelne vystupuje na medzinárodných konferenciách a prednáša študentom architektúry."
+      }
+    }
+  },
+  "teahousePopup": {
+    "joinUs": "Pripoj sa",
+    "at": "",
+    "info": "Vstúpte dovnútra a zažite týždeň plný objavov:{BR}SORRYWECAN RESEARCHLAB sa otvára verejnosti a spája čaj a umelú inteligenciu",
+    "learnMore": "Zistiť viac"
+  },
+  "mindshiftPopup": {
+    "label": "26. februára · Bratislava",
+    "headline": "Mindshift prichádza.",
+    "subline": "Za 3 hodiny uvidíte to, čo nám trvalo roky pochopiť.",
+    "cta": "Zistiť viac"
+  }
+}
