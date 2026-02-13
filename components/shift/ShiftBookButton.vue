@@ -14,7 +14,9 @@ const CAL_SHIFT_CONFIG = {
   username: "researchlabsorrywecan",
   eventSlug: "theshift",
   get bookingUrl() {
-    return `https://cal.com/${this.username}/${this.eventSlug}`
+    const now = new Date()
+    const month = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`
+    return `https://cal.com/${this.username}/${this.eventSlug}?month=${month}`
   }
 }
 
