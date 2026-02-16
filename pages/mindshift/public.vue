@@ -16,7 +16,7 @@ const lang = computed<'en' | 'sk'>(() => locale.value === 'sk' ? 'sk' : 'en')
 const content = {
   en: {
     hero: {
-      label: "THE SHIFT",
+      label: "THE MINDSHIFT",
       title: {
         line1: "In 3 Hours, You'll See",
         line2: "What Took Us Years to Learn."
@@ -33,7 +33,7 @@ const content = {
       items: [
         { value: "39%", label: "of your current skills will change by 2030", source: "WEF 2025" },
         { value: "75%", label: "of knowledge workers already use AI", source: "Microsoft 2024" },
-        { value: "78%", label: "of companies use AI in at least one function", source: "McKinsey 2025" },
+        { value: "88%", label: "of companies use AI in at least one function", source: "McKinsey 2025" },
         { value: "9×", label: "surge in GenAI-skill job vacancies since 2022", source: "World Bank 2025" },
         { value: "56%", label: "of companies see no return on AI investment yet", source: "PwC 2026" }
       ]
@@ -99,8 +99,8 @@ const content = {
           name: "Roland Vraník", 
           role: "The Creative", 
           company: "Creative Director / Founder, SORRYWECAN", 
-          tagline: "Made mistakes that cost more than money. Sees what most creative teams miss.",
-          bio: "Creative director behind award-winning campaigns for Forbes, Meta, Audi, and Samsung. Decades connecting aesthetics with technology. Now builds with AI daily. Does in hours what used to take weeks.",
+          tagline: "Made decisions that came at a high price. Now sees what creative teams often miss.",
+          bio: "Creative director behind award-winning campaigns for Tatra banka, Meta, Audi, and Samsung. Decades connecting aesthetics with technology. Now builds with AI daily. Does in hours what used to take weeks.",
           url: "https://sorrywecan.com/",
           image: "/founders/roland.jpg"
         },
@@ -108,7 +108,7 @@ const content = {
           name: "Ján Koscelanský", 
           role: "The Architect", 
           company: "CPO / Co-founder, SUDOLABS", 
-          tagline: "Knows exactly where teams waste months building what one person could ship in a week.",
+          tagline: "Years of building products showed him exactly where teams lose months on what can now be done many times faster.",
           bio: "Co-founded SUDOLABS. Years shipping digital products across fintech, health, and enterprise. Sees the gap between what companies build and what they could build.",
           url: "https://sudolabs.com/",
           image: "/founders/jan.webp"
@@ -117,7 +117,7 @@ const content = {
           name: "Roman Pii Wagner", 
           role: "The Navigator", 
           company: "Transformational Design", 
-          tagline: "Turns confusion into priorities. Turns priorities into Monday decisions.",
+          tagline: "Turns confusion into priorities and priorities into concrete decisions.",
           bio: "Transformational designer. Helps organizations figure out what to focus on, what to let go of, and how to make decisions that hold under pressure.",
           url: "",
           image: "/founders/roman.jpg"
@@ -128,12 +128,12 @@ const content = {
       title: "Questions.",
       items: [
         { q: "Do I need technical skills?", a: "No. If you can use a browser, you can do this." },
-        { q: "What should I bring?", a: "Laptop. Internet. That's it." },
-        { q: "Why €99?", a: "We want this accessible. Best marketing is people telling friends." },
-        { q: "What makes this different?", a: "We're not teaching from slides. We build with AI daily. Real work, not theory." },
-        { q: "Can I expense this?", a: "Yes. Proper invoices. Most companies approve €99 without questions." },
-        { q: "What language?", a: "Slovak primarily. English materials. We adapt." },
-        { q: "What if I want more after?", a: "Good. Corporate workshops for teams. Or join again." }
+        { q: "What should I bring?", a: "A laptop. That's it." },
+        { q: "Why €99?", a: "We're creating a format that's truly accessible." },
+        { q: "What makes this different?", a: "We don't just teach AI. We show how we actually work with it every day — and how you can too." },
+        { q: "Can my employer cover this?", a: "Yes, we can prepare an invoice for your employer." },
+        { q: "What language is the workshop in?", a: "The workshop is in Slovak. Materials are often in English as well." },
+        { q: "What if I want more after?", a: "Want to bring your whole team or go deeper into the topic? Get in touch." }
       ],
       details: {
         title: "Details",
@@ -147,7 +147,7 @@ const content = {
     },
     cta: {
       headline: "I'm In.",
-      subline: "40 seats. First session February 26.",
+      subline: "First session February 26.",
       button: "I'm In",
       note: "Want this for your team?",
       corporate: "Corporate Workshop"
@@ -155,7 +155,7 @@ const content = {
   },
   sk: {
     hero: {
-      label: "THE SHIFT",
+      label: "THE MINDSHIFT",
       title: {
         line1: "Za 3 Hodiny Uvidíte To,",
         line2: "Čo Nám Trvalo Roky Pochopiť."
@@ -172,7 +172,7 @@ const content = {
       items: [
         { value: "39%", label: "vašich súčasných zručností sa zmení do 2030", source: "WEF 2025" },
         { value: "75%", label: "knowledge workers už používa AI", source: "Microsoft 2024" },
-        { value: "78%", label: "firiem používa AI aspoň v jednej oblasti", source: "McKinsey 2025" },
+        { value: "88%", label: "firiem používa AI aspoň v jednej oblasti", source: "McKinsey 2025" },
         { value: "9×", label: "nárast pracovných ponúk vyžadujúcich GenAI zručnosti od 2022", source: "World Bank 2025" },
         { value: "56%", label: "firiem nevidí návratnosť investícií do AI", source: "PwC 2026" }
       ]
@@ -238,8 +238,8 @@ const content = {
           name: "Roland Vraník", 
           role: "Umelec", 
           company: "Creative Director / Zakladateľ, SORRYWECAN", 
-          tagline: "Urobil chyby, ktoré stáli viac než peniaze. Vidí, čo väčšine kreatívnych tímov uniká.",
-          bio: "Kreatívny riaditeľ za oceňovanými kampaňami pre Forbes, Meta, Audi a Samsung. Dekády na priesečníku estetiky a technológie. Dnes buduje s AI denne. Robí za hodiny, čo kedysi trvalo týždne.",
+          tagline: "Prešiel si rozhodnutiami, ktoré mali vysokú cenu. Dnes vidí to, čo kreatívnym tímom často uniká.",
+          bio: "Kreatívny riaditeľ za oceňovanými kampaňami pre Tatra banku, Meta, Audi a Samsung. Dekády na priesečníku estetiky a technológie. Dnes buduje s AI denne. Robí za hodiny, čo kedysi trvalo týždne.",
           url: "https://sorrywecan.com/",
           image: "/founders/roland.jpg"
         },
@@ -247,7 +247,7 @@ const content = {
           name: "Ján Koscelanský", 
           role: "Architekt", 
           company: "CPO / Spoluzakladateľ, SUDOLABS", 
-          tagline: "Presne vie, kde tímy strácajú mesiace nad niečím, čo jeden človek dodá za týždeň.",
+          tagline: "Po rokoch v developmente presne vie, kde tímy trávia mesiace nad niečím, čo sa dnes dá zvládnuť mnohonásobne rýchlejšie.",
           bio: "Spoluzakladateľ SUDOLABS. Roky dodávania digitálnych produktov naprieč fintechom, zdravotníctvom a enterprise. Vidí priepasť medzi tým, čo firmy stavajú a čo by stavať mohli.",
           url: "https://sudolabs.com/",
           image: "/founders/jan.webp"
@@ -256,7 +256,7 @@ const content = {
           name: "Roman Pii Wagner", 
           role: "Navigátor", 
           company: "Transformational Design", 
-          tagline: "Mení zmätok na priority. Mení priority na pondelkové rozhodnutia.",
+          tagline: "Mení zmätok na priority a priority na konkrétne rozhodnutia.",
           bio: "Transformačný dizajnér. Pomáha organizáciám zistiť, na čo sa sústrediť, čo pustiť a ako robiť rozhodnutia, ktoré vydržia pod tlakom.",
           url: "",
           image: "/founders/roman.jpg"
@@ -267,12 +267,12 @@ const content = {
       title: "Otázky.",
       items: [
         { q: "Potrebujem technické zručnosti?", a: "Nie. Ak vieš používať prehliadač, zvládneš to." },
-        { q: "Čo si mám priniesť?", a: "Laptop. Internet. To je všetko." },
-        { q: "Prečo €99?", a: "Chceme, aby to bolo dostupné. Najlepší marketing je, keď ľudia povedia kamarátom." },
-        { q: "Čo je na tom iné?", a: "Neučíme zo slajdov. S AI pracujeme denne. Reálna práca, nie teória." },
-        { q: "Môžem si to preplatiť?", a: "Áno. Riadne faktúry. Väčšina firiem schváli €99 bez otázok." },
-        { q: "V akom jazyku?", a: "Primárne slovensky. Anglické materiály. Prispôsobíme sa." },
-        { q: "Čo ak budem chcieť viac?", a: "Dobre. Firemné workshopy pre tímy. Alebo príď znova." }
+        { q: "Čo si mám priniesť?", a: "Stačí laptop." },
+        { q: "Prečo €99?", a: "Vytvárame formát, ktorý je naozaj dostupný." },
+        { q: "Čo je na tom iné?", a: "Neučíme len AI. Ukazujeme, ako s ňou reálne pracujeme každý deň a ako môžete vy." },
+        { q: "Je možné dať kurz preplatiť?", a: "Áno, vieme pripraviť faktúru aj pre tvojho zamestnávateľa." },
+        { q: "V akom jazyku prebieha workshop?", a: "Workshop prebieha v slovenčine, zaslané materiály sú často aj v angličtine." },
+        { q: "Čo ak budem chcieť viac?", a: "Chceš prísť na workshop s celým tvojim tímom alebo sa do témy ponoriť viac? Ozvi sa nám." }
       ],
       details: {
         title: "Detaily",
@@ -286,7 +286,7 @@ const content = {
     },
     cta: {
       headline: "Idem Do Toho.",
-      subline: "40 miest. Prvá session 26. februára.",
+      subline: "Prvá session 26. februára.",
       button: "Idem Do Toho",
       note: "Chceš toto pre svoj tím?",
       corporate: "Firemný Workshop"
