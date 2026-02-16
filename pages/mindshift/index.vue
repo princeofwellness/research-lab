@@ -22,7 +22,7 @@ const content = {
       price: "99",
       duration: "3.5 hours",
       date: "February 26, 2026",
-      spots: "40 seats",
+      location: "Bratislava, Slovakia",
       cta: "I'm In"
     },
     trust: {
@@ -164,7 +164,7 @@ const content = {
       price: "99",
       duration: "3.5 hodiny",
       date: "26. februára 2026",
-      spots: "40 miest",
+      location: "Bratislava, Slovensko",
       cta: "Idem Do Toho"
     },
     trust: {
@@ -326,7 +326,7 @@ onMounted(() => {
   <div class="min-h-screen bg-[var(--bg-color)] text-[#0a0a0a] selection:bg-[#0047BB]/20 font-proxima">
 
     <!-- Hero Section -->
-    <section class="min-h-[90vh] flex flex-col justify-center px-[32px] md:px-12 pt-[136px] relative overflow-hidden">
+    <section class="min-h-[90vh] flex flex-col justify-center px-[32px] md:px-12 pt-20 relative overflow-hidden">
       <div class="absolute inset-0 blueprint-grid opacity-10 pointer-events-none" />
       <div class="max-w-5xl mx-auto w-full relative z-10">
 
@@ -358,14 +358,15 @@ onMounted(() => {
               <span class="text-sm text-black/40 ml-2">/ {{ t.hero.duration }}</span>
             </div>
 
-            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
-              <ShiftBookButton variant="primary">
-                {{ t.hero.cta }}
-              </ShiftBookButton>
-              <div class="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest font-source-code-pro">
-                <span class="text-techblue">{{ t.hero.date }}</span>
-              </div>
+            <div class="flex items-center gap-4 font-bold uppercase tracking-widest font-source-code-pro">
+              <span class="text-sm text-techblue">{{ t.hero.date }}</span>
+              <span class="text-sm text-black/30">|</span>
+              <span class="text-sm text-black/50">{{ t.hero.location }}</span>
             </div>
+
+            <ShiftBookButton variant="primary">
+              {{ t.hero.cta }}
+            </ShiftBookButton>
 
             <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
               <span class="text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-black/30 shrink-0">
