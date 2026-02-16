@@ -146,7 +146,7 @@ const content = {
       }
     },
     cta: {
-      headline: "I'm In.",
+      headline: "Your Move.",
       subline: "First session February 26.",
       button: "I'm In",
       note: "Want this for your team?",
@@ -288,7 +288,7 @@ const content = {
       }
     },
     cta: {
-      headline: "Idem Do Toho.",
+      headline: "Váš Ťah.",
       subline: "Prvá session 26. februára.",
       button: "Idem Do Toho",
       note: "Chceš toto pre svoj tím?",
