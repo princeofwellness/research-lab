@@ -300,13 +300,13 @@ const content = {
 const t = computed(() => content[lang.value])
 
 const partners = [
-  { name: "Meta", logo: "/logos/meta.png", size: "h-5 md:h-6" },
-  { name: "Tatra Banka", logo: "/logos/tatrabanka.png", size: "h-8 md:h-9" },
-  { name: "Raiffeisen", logo: "/logos/raiffeisen.png", size: "h-8 md:h-9" },
-  { name: "VUB", logo: "/logos/vub.png", size: "h-5 md:h-6" },
-  { name: "Sennheiser", logo: "/logos/sennheiser.png", size: "h-8 md:h-9" },
-  { name: "Forbes", logo: "/logos/forbes.png", size: "h-5 md:h-6" },
-  { name: "Audi", logo: "/logos/audi.svg", size: "h-5 md:h-6" }
+  { name: "Meta", logo: "/logos/meta.png", size: "h-4 md:h-5" },
+  { name: "Tatra Banka", logo: "/logos/tatrabanka.png", size: "h-10 md:h-12" },
+  { name: "Raiffeisen", logo: "/logos/raiffeisen.png", size: "h-10 md:h-12" },
+  { name: "VUB", logo: "/logos/vub.png", size: "h-7 md:h-8" },
+  { name: "Sennheiser", logo: "/logos/sennheiser.png", size: "h-10 md:h-12" },
+  { name: "Forbes", logo: "/logos/forbes.png", size: "h-4 md:h-5" },
+  { name: "Audi", logo: "/logos/audi.svg", size: "h-4 md:h-5" }
 ]
 
 const faqOpen = ref<number | null>(null)
@@ -373,7 +373,7 @@ onMounted(() => {
               <span class="text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-black/30 shrink-0">
                 {{ t.trust.label }}
               </span>
-              <div class="flex items-center gap-8 md:gap-10 flex-wrap">
+              <div class="flex items-center gap-6 md:gap-8 flex-wrap">
                 <img
                   v-for="partner in partners"
                   :key="partner.name"
