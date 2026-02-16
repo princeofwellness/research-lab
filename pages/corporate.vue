@@ -309,7 +309,7 @@ onMounted(() => {
               >
                 {{ t.hero.cta }}
               </a>
-              <div class="flex items-center gap-4 text-[10px] font-bold uppercase tracking-widest text-black/40 font-source-code-pro">
+              <div class="flex items-center gap-5 text-[13px] md:text-[14px] font-bold uppercase tracking-widest text-black/50 font-source-code-pro">
                 <span>{{ t.hero.duration }}</span>
                 <span class="text-black/20">|</span>
                 <span>{{ t.hero.capacity }}</span>
