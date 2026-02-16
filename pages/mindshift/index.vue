@@ -301,10 +301,10 @@ const t = computed(() => content[lang.value])
 
 const partners = [
   { name: "Meta", logo: "/logos/meta.png", size: "h-6 md:h-7" },
-  { name: "Tatra Banka", logo: "/logos/tatrabanka.png", size: "h-8 md:h-9" },
-  { name: "Raiffeisen", logo: "/logos/raiffeisen.png", size: "h-8 md:h-9" },
+  { name: "Tatra Banka", logo: "/logos/tatrabanka.png", size: "h-10 md:h-12" },
+  { name: "Raiffeisen", logo: "/logos/raiffeisen.png", size: "h-10 md:h-12" },
   { name: "VUB", logo: "/logos/vub.png", size: "h-6 md:h-7" },
-  { name: "Sennheiser", logo: "/logos/sennheiser.png", size: "h-8 md:h-9" },
+  { name: "Sennheiser", logo: "/logos/sennheiser.png", size: "h-10 md:h-12" },
   { name: "Forbes", logo: "/logos/forbes.png", size: "h-6 md:h-7" },
   { name: "Audi", logo: "/logos/audi.svg", size: "h-6 md:h-7" }
 ]
