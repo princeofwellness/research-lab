@@ -427,31 +427,31 @@ onMounted(() => {
     </section>
 
     <!-- Outcome Section -->
-    <section class="py-20 md:py-28 px-[32px] md:px-12 bg-black/[0.02] border-b border-black/10">
-      <div class="max-w-5xl mx-auto">
-        <h2 class="font-bold text-3xl md:text-4xl text-center mb-12">{{ t.outcome.title }}</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <section class="py-28 md:py-36 px-[32px] md:px-12 bg-black/[0.02] border-b border-black/10">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="font-bold text-3xl md:text-4xl text-center mb-16">{{ t.outcome.title }}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-6">
           <div 
             v-for="(item, i) in t.outcome.items" 
             :key="i" 
-            class="p-5 border border-black/10"
+            class="p-6 md:p-8 border border-black/10"
           >
-            <span class="w-7 h-7 bg-techblue text-white flex items-center justify-center font-bold text-xs mb-3 font-source-code-pro">
+            <span class="w-8 h-8 bg-techblue text-white flex items-center justify-center font-bold text-sm mb-4 font-source-code-pro">
               {{ i + 1 }}
             </span>
-            <h4 class="font-bold text-sm mb-1">{{ item.title }}</h4>
-            <p class="text-xs text-black/50">{{ item.desc }}</p>
+            <h4 class="font-bold text-base mb-2">{{ item.title }}</h4>
+            <p class="text-sm text-black/50">{{ item.desc }}</p>
           </div>
         </div>
 
-        <div class="grid grid-cols-3 gap-4 mt-12 pt-12 border-t border-black/10">
+        <div class="grid grid-cols-3 gap-6 mt-16 pt-16 border-t border-black/10">
           <div 
             v-for="(stat, i) in t.proof.stats" 
             :key="i" 
             class="text-center"
           >
             <span class="text-4xl md:text-5xl font-bold text-techblue">{{ stat.value }}</span>
-            <p class="text-xs text-black/40 mt-2 font-source-code-pro">{{ stat.label }}</p>
+            <p class="text-sm text-black/40 mt-2 font-source-code-pro">{{ stat.label }}</p>
           </div>
         </div>
       </div>
