@@ -555,13 +555,14 @@ onMounted(() => {
         <ShiftBookButton variant="secondary">
           {{ t.cta.button }}
         </ShiftBookButton>
-        <div class="mt-8 flex items-center justify-center gap-3">
-          <span class="text-sm text-white/40">{{ t.cta.note }}</span>
+        <div class="mt-12 pt-10 border-t border-white/10">
+          <p class="text-base text-white/50 mb-4">{{ t.cta.note }}</p>
           <NuxtLink
             to="/corporate"
-            class="text-sm font-bold text-techblue hover:text-white transition-colors font-source-code-pro"
+            class="inline-flex items-center gap-3 font-bold border-2 border-techblue text-techblue px-8 py-4 hover:bg-techblue hover:text-white transition-all font-source-code-pro uppercase tracking-widest text-[11px]"
           >
-            {{ t.cta.corporate }} →
+            {{ t.cta.corporate }}
+            <span class="text-lg">→</span>
           </NuxtLink>
         </div>
       </div>
