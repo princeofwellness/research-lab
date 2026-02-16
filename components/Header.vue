@@ -46,7 +46,7 @@ const handleNavigation = (e) => {
       <div class="absolute right-0 h-full flex items-center space-x-4 xl:space-x-8 opacity-0 lg:opacity-100 pointer-events-none lg:pointer-events-auto">
         <NuxtLink :class="cn('text-[11px] xl:text-[14px] tracking-widest hover:underline uppercase', currentPath == localePath('/publications') ? 'font-bold' : 'font-medium')" :to="localePath('/publications')">{{ $t('menu.publications') }}</NuxtLink>
         <NuxtLink :class="cn('text-[11px] xl:text-[14px] tracking-widest hover:underline uppercase', currentPath == localePath('/contact') ? 'font-bold' : 'font-medium')" :to="localePath('/contact')">{{ $t('menu.contact') }}</NuxtLink>
-        <NuxtLink :class="cn('text-[11px] xl:text-[14px] tracking-widest hover:underline uppercase font-bold', currentPath == localePath('/mindshift') ? 'bg-techblue text-white px-3 xl:px-4 py-1' : 'text-techblue')" :to="localePath('/mindshift')">{{ $t('menu.mindshift') }}</NuxtLink>
+        <NuxtLink :class="cn('text-[11px] xl:text-[14px] tracking-widest hover:underline uppercase font-bold', currentPath == localePath('/mindshift') ? 'bg-techblue text-white px-3 xl:px-4 py-1' : 'text-techblue')" :to="localePath('/mindshift')">THE MINDSHIFT</NuxtLink>
         <LanguageChooser />
       </div>
 
@@ -77,7 +77,7 @@ const handleNavigation = (e) => {
       {{ $t('menu.contact') }}
     </NuxtLink>
     <NuxtLink class="uppercase font-bold text-techblue" :to="localePath('/mindshift')" @click="handleNavigation($event)">
-      {{ $t('menu.mindshift') }}
+      THE MINDSHIFT
     </NuxtLink>
 
     <LanguageChooser/>

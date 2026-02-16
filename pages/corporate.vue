@@ -506,10 +506,10 @@ onMounted(() => {
         <div class="mt-8 flex items-center justify-center gap-3">
           <span class="text-sm text-white/40">{{ lang === 'en' ? "Want to try first?" : "Chceš najprv vyskúšať?" }}</span>
           <NuxtLink 
-            to="/mindshift/public" 
+            to="/mindshift" 
             class="text-sm font-bold text-techblue hover:text-white transition-colors font-source-code-pro"
           >
-            {{ lang === 'en' ? "THE SHIFT €99" : "THE SHIFT €99" }} →
+            {{ lang === 'en' ? "THE MINDSHIFT €99" : "THE MINDSHIFT €99" }} →
           </NuxtLink>
         </div>
       </div>

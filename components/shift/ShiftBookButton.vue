@@ -81,7 +81,7 @@ const closeModal = () => {
           <iframe
             :src="`${CAL_SHIFT_CONFIG.bookingUrl}?embed=true&theme=light`"
             class="w-full h-full border-0"
-            title="Book THE SHIFT"
+            title="Book THE MINDSHIFT"
           />
         </div>
       </div>
