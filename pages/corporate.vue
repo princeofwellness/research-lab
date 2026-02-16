@@ -386,7 +386,7 @@ onMounted(() => {
             </div>
             <div class="flex-1">
               <h4 class="text-lg font-bold mb-1">{{ part.title }}</h4>
-              <p class="text-sm text-black/60">{{ part.desc }}</p>
+              <p class="text-sm text-black/60 md:min-h-[3.75rem]">{{ part.desc }}</p>
             </div>
             <div class="md:w-20 shrink-0 md:text-right">
               <span class="text-[10px] font-bold uppercase tracking-widest text-black/30 font-source-code-pro">{{ part.lead }}</span>
