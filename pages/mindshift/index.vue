@@ -358,15 +358,16 @@ onMounted(() => {
               <span class="text-sm text-black/40 ml-2">/ {{ t.hero.duration }}</span>
             </div>
 
-            <div class="flex items-center gap-4 font-bold uppercase tracking-widest font-source-code-pro">
-              <span class="text-sm text-techblue">{{ t.hero.date }}</span>
-              <span class="text-sm text-black/30">|</span>
-              <span class="text-sm text-black/50">{{ t.hero.location }}</span>
+            <div class="flex flex-col sm:flex-row items-start sm:items-center gap-6">
+              <ShiftBookButton variant="primary">
+                {{ t.hero.cta }}
+              </ShiftBookButton>
+              <div class="flex items-center gap-4 font-bold uppercase tracking-widest font-source-code-pro">
+                <span class="text-sm text-techblue">{{ t.hero.date }}</span>
+                <span class="text-sm text-black/30">|</span>
+                <span class="text-sm text-black/50">{{ t.hero.location }}</span>
+              </div>
             </div>
-
-            <ShiftBookButton variant="primary">
-              {{ t.hero.cta }}
-            </ShiftBookButton>
 
             <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-8">
               <span class="text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-black/30 shrink-0">
