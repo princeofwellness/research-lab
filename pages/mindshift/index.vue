@@ -389,21 +389,21 @@ onMounted(() => {
     </section>
 
     <!-- Stats Section -->
-    <section class="py-16 md:py-20 px-[32px] md:px-12 border-b border-black/10">
-      <div class="max-w-5xl mx-auto scroll-reveal">
+    <section class="py-24 md:py-32 px-[32px] md:px-12 border-b border-black/10">
+      <div class="max-w-6xl mx-auto scroll-reveal">
         <p
-          class="text-center text-xl md:text-2xl font-bold text-black/70 mb-12"
+          class="text-center text-xl md:text-2xl font-bold text-black/70 mb-16 md:mb-20"
         >
           {{ t.stats.headline }}
         </p>
-        <div class="grid grid-cols-2 sm:grid-cols-5 gap-8 md:gap-12">
+        <div class="grid grid-cols-2 sm:grid-cols-5 gap-12 md:gap-16">
           <div
             v-for="(stat, i) in t.stats.items"
             :key="i"
             class="text-center"
           >
-            <span class="text-3xl md:text-4xl font-bold text-techblue">{{ stat.value }}</span>
-            <p class="text-sm text-black/60 mt-2 mb-1">{{ stat.label }}</p>
+            <span class="text-4xl md:text-5xl font-bold text-techblue">{{ stat.value }}</span>
+            <p class="text-sm md:text-base text-black/60 mt-3 mb-1">{{ stat.label }}</p>
             <p class="text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-black/30">{{ stat.source }}</p>
           </div>
         </div>
