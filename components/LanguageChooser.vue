@@ -1,12 +1,17 @@
 <script setup lang="ts">
 const { locale, setLocale } = useI18n()
+const router = useRouter()
 
 const switchLang = async (lang: string) => {
   const scrollY = window.scrollY
+
+  const removeHook = router.afterEach(() => {
+    removeHook()
+    setTimeout(() => window.scrollTo(0, scrollY), 0)
+    requestAnimationFrame(() => window.scrollTo(0, scrollY))
+  })
+
   await setLocale(lang)
-  await nextTick()
-  window.scrollTo(0, scrollY)
-  requestAnimationFrame(() => window.scrollTo(0, scrollY))
 }
 </script>
 
