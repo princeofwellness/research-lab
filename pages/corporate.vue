@@ -17,7 +17,7 @@ const content = {
                 line1: "Your Team.",
                 line2: "New Operating System."
             },
-            subline: "Creativity. Product. Transformation. Applied to your reality.",
+            subline: "",
             description: "We don't come with ready-made answers. We think with you about the decisions ahead of you.",
             price: "5,900",
             duration: "4-5 hours",
@@ -138,7 +138,7 @@ const content = {
                 line1: "Váš Tím.",
                 line2: "Nový Operačný Systém."
             },
-            subline: "Kreativita. Produkt. Transformácia. Aplikované na vašu realitu.",
+            subline: "",
             description: "Neprichádzame s hotovými odpoveďami, premýšľame s vami nad rozhodnutiami, ktoré sú pred vami.",
             price: "5 900",
             duration: "4-5 hodín",
@@ -291,7 +291,7 @@ onMounted(() => {
             <span class="text-techblue">{{ t.hero.title.line2 }}</span>
           </h1>
 
-          <p class="text-lg md:text-xl text-black/40 mt-2 transition-opacity duration-1000 delay-200" :class="[pageReady ? 'opacity-100' : 'opacity-0']">
+          <p v-if="t.hero.subline" class="text-lg md:text-xl text-black/40 mt-2 transition-opacity duration-1000 delay-200" :class="[pageReady ? 'opacity-100' : 'opacity-0']">
             {{ t.hero.subline }}
           </p>
 
