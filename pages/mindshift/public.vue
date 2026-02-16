@@ -119,7 +119,7 @@ const content = {
           company: "Transformational Design", 
           tagline: "Turns confusion into priorities and priorities into concrete decisions.",
           bio: "Transformational designer. Helps organizations figure out what to focus on, what to let go of, and how to make decisions that hold under pressure.",
-          url: "",
+          url: "https://www.linkedin.com/in/romanpiiwagner/?originalSubdomain=sk",
           image: "/founders/roman.jpg"
         }
       ]
@@ -255,10 +255,10 @@ const content = {
         { 
           name: "Roman Pii Wagner", 
           role: "Navigátor", 
-          company: "Transformational Design", 
+          company: "Transformačný dizajnér", 
           tagline: "Mení zmätok na priority a priority na konkrétne rozhodnutia.",
           bio: "Transformačný dizajnér. Pomáha organizáciám zistiť, na čo sa sústrediť, čo pustiť a ako robiť rozhodnutia, ktoré vydržia pod tlakom.",
-          url: "",
+          url: "https://www.linkedin.com/in/romanpiiwagner/?originalSubdomain=sk",
           image: "/founders/roman.jpg"
         }
       ]
