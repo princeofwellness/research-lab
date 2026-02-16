@@ -410,24 +410,33 @@ onMounted(() => {
       </div>
     </section>
 
-    <!-- Problem Section -->
-    <section class="py-16 md:py-20 px-[32px] md:px-12 border-b border-black/10">
-      <div class="max-w-4xl mx-auto scroll-reveal">
-        <h2
-          class="font-bold text-2xl md:text-3xl text-center mb-10"
-        >
-          {{ t.problem.title }}
-        </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+    <!-- Founders Section -->
+    <section class="py-20 md:py-28 px-[32px] md:px-12 border-b border-black/10">
+      <div class="max-w-5xl mx-auto scroll-reveal">
+        <div class="text-center mb-12">
+          <h2 class="font-bold text-3xl md:text-4xl mb-2">{{ t.founders.title }}</h2>
+          <p class="text-black/50">{{ t.founders.subtitle }}</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div
-            v-for="(card, i) in t.problem.cards"
+            v-for="(card, i) in t.founders.cards"
             :key="i"
-            class="p-6 border border-black/[0.06] bg-black/[0.03]"
+            class="p-6 border border-black/10 text-center"
           >
-            <p class="text-lg md:text-xl font-medium text-black">{{ card.headline }}</p>
-            <p class="text-lg md:text-xl text-black/40">{{ card.subline }}</p>
+            <div v-if="card.image" class="w-20 h-20 rounded-full overflow-hidden mb-4 mx-auto border-2 border-white/20">
+              <img :src="card.image" :alt="card.name" class="w-full h-full object-cover" />
+            </div>
+            <h4 class="text-xl font-bold">{{ card.name }}</h4>
+            <p class="text-[10px] font-bold uppercase tracking-widest text-techblue mt-1 font-source-code-pro">{{ card.role }}</p>
+            <p class="text-[10px] text-black/30 mb-4 font-source-code-pro">{{ card.company }}</p>
+            <p class="text-sm text-black/60 mb-3 md:min-h-[8.5rem]">{{ card.bio }}</p>
+            <a v-if="card.url" :href="card.url" target="_blank" rel="noopener noreferrer" class="inline-block text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-techblue hover:underline mt-2 max-w-full truncate">
+              {{ card.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '') }}
+            </a>
+            <p class="text-sm text-black/80 italic border-t border-black/10 pt-3">"{{ card.tagline }}"</p>
           </div>
         </div>
+        <p v-if="t.founders.trust" class="text-center text-[11px] font-source-code-pro text-black/40 mt-6">{{ t.founders.trust }}</p>
       </div>
     </section>
 
@@ -438,7 +447,7 @@ onMounted(() => {
           <h2 class="font-bold text-3xl md:text-4xl">
             {{ t.session.title }}
           </h2>
-          <p class="text-lg text-techblue mt-2">{{ t.session.subtitle }}</p>
+          <p v-if="t.session.subtitle" class="text-lg text-techblue mt-2">{{ t.session.subtitle }}</p>
         </div>
 
         <div class="space-y-3">
@@ -466,36 +475,6 @@ onMounted(() => {
       </div>
     </section>
 
-    <!-- Founders Section -->
-    <section class="py-20 md:py-28 px-[32px] md:px-12 border-b border-black/10">
-      <div class="max-w-5xl mx-auto scroll-reveal">
-        <div class="text-center mb-12">
-          <h2 class="font-bold text-3xl md:text-4xl mb-2">{{ t.founders.title }}</h2>
-          <p class="text-black/50">{{ t.founders.subtitle }}</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div
-            v-for="(card, i) in t.founders.cards"
-            :key="i"
-            class="p-6 border border-black/10 text-center"
-          >
-            <div v-if="card.image" class="w-20 h-20 rounded-full overflow-hidden mb-4 mx-auto border-2 border-white/20">
-              <img :src="card.image" :alt="card.name" class="w-full h-full object-cover" />
-            </div>
-            <h4 class="text-xl font-bold">{{ card.name }}</h4>
-            <p class="text-[10px] font-bold uppercase tracking-widest text-techblue mt-1 font-source-code-pro">{{ card.role }}</p>
-            <p class="text-[10px] text-black/30 mb-4 font-source-code-pro">{{ card.company }}</p>
-            <p class="text-sm text-black/60 mb-3 md:min-h-[8.5rem]">{{ card.bio }}</p>
-            <a v-if="card.url" :href="card.url" target="_blank" rel="noopener noreferrer" class="inline-block text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-techblue hover:underline mt-2">
-              {{ card.url.replace(/^https?:\/\//, '').replace(/\/$/, '') }}
-            </a>
-            <p class="text-sm text-black/80 italic border-t border-black/10 pt-3">"{{ card.tagline }}"</p>
-          </div>
-        </div>
-        <p v-if="t.founders.trust" class="text-center text-[11px] font-source-code-pro text-black/40 mt-6">{{ t.founders.trust }}</p>
-      </div>
-    </section>
-
     <!-- Outcome Section -->
     <section class="py-28 md:py-36 px-[32px] md:px-12 bg-black/[0.02] border-b border-black/10">
       <div class="max-w-6xl mx-auto scroll-reveal">
@@ -516,11 +495,25 @@ onMounted(() => {
       </div>
     </section>
 
+    <!-- Details Section (Where / When / Time / Price) -->
+    <section class="py-16 md:py-20 px-[32px] md:px-12 border-b border-black/10">
+      <div class="max-w-3xl mx-auto scroll-reveal">
+        <h2 class="font-bold text-2xl md:text-3xl text-center mb-10">{{ t.faq.details.title }}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 p-6 md:p-8 bg-black/[0.02] border border-black/[0.06]">
+          <div v-for="(item, i) in t.faq.details.items" :key="i" class="text-center">
+            <p class="text-[10px] font-bold uppercase tracking-widest text-black/40 mb-2 font-source-code-pro">{{ item.label }}</p>
+            <p class="text-base font-medium">{{ item.value }}</p>
+            <p class="text-sm text-black/50">{{ item.subvalue }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="py-20 md:py-28 px-[32px] md:px-12">
       <div class="max-w-3xl mx-auto scroll-reveal">
         <h2 class="font-bold text-3xl text-center mb-10">{{ t.faq.title }}</h2>
-        <div class="space-y-2 mb-12">
+        <div class="space-y-2">
           <div v-for="(item, i) in t.faq.items" :key="i" class="border border-black/[0.06]">
             <button
               @click="toggleFaq(i)"
@@ -534,14 +527,6 @@ onMounted(() => {
                 <p class="px-5 pb-4 text-sm text-black/60">{{ item.a }}</p>
               </div>
             </Transition>
-          </div>
-        </div>
-
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 p-6 md:p-8 bg-black/[0.02] border border-black/[0.06]">
-          <div v-for="(item, i) in t.faq.details.items" :key="i" class="text-center">
-            <p class="text-[10px] font-bold uppercase tracking-widest text-black/40 mb-2 font-source-code-pro">{{ item.label }}</p>
-            <p class="text-base font-medium">{{ item.value }}</p>
-            <p class="text-sm text-black/50">{{ item.subvalue }}</p>
           </div>
         </div>
       </div>

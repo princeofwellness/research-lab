@@ -416,8 +416,8 @@ onMounted(() => {
             <p class="text-[10px] font-bold uppercase tracking-widest text-techblue mt-1 font-source-code-pro">{{ card.role }}</p>
             <p class="text-[10px] text-black/30 mb-4 font-source-code-pro">{{ card.company }}</p>
             <p class="text-sm text-black/60 mb-3 md:min-h-[7.5rem]">{{ card.bio }}</p>
-            <a v-if="card.url" :href="card.url" target="_blank" rel="noopener noreferrer" class="inline-block text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-techblue hover:underline mt-2">
-              {{ card.url.replace(/^https?:\/\//, '').replace(/\/$/, '') }}
+            <a v-if="card.url" :href="card.url" target="_blank" rel="noopener noreferrer" class="inline-block text-[10px] font-source-code-pro font-bold uppercase tracking-widest text-techblue hover:underline mt-2 max-w-full truncate">
+              {{ card.url.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '') }}
             </a>
             <p class="text-sm text-black/80 italic border-t border-black/10 pt-3">"{{ card.tagline }}"</p>
           </div>
