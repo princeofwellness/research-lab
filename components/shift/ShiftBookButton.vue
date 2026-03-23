@@ -5,7 +5,7 @@ const props = withDefaults(defineProps<{
   variant: 'primary'
 })
 
-const STRIPE_URL = "https://buy.stripe.com/00wdR98DC4Av8EzdXr4gg01"
+const STRIPE_URL = "https://buy.stripe.com/bJe4gzg648QLcUP6uZ4gg02"
 
 const baseStyles = "font-bold uppercase tracking-widest transition-all cursor-pointer inline-block text-center"
 
