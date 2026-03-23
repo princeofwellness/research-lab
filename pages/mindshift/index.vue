@@ -21,7 +21,7 @@ const content = {
       subline: "One evening. A new way to think, decide, and create with AI.",
       price: "99",
       duration: "3.5 hours",
-      date: "February 26, 2026",
+      date: "March 31, 2026",
       location: "Bratislava, Slovakia",
       cta: "I'm In"
     },
@@ -140,7 +140,7 @@ const content = {
         title: "Details",
         items: [
           { label: "Where", value: "SORRYWECAN Studio", subvalue: "Pečnianska 7, Bratislava" },
-          { label: "When", value: "February 26, 2026", subvalue: "Wednesday" },
+          { label: "When", value: "March 31, 2026", subvalue: "Wednesday" },
           { label: "Time", value: "17:00 – 20:30", subvalue: "3.5 hours" },
           { label: "Price", value: "from €99", subvalue: "per person" }
         ]
@@ -164,7 +164,7 @@ const content = {
       subline: "Jeden večer. Nový spôsob, ako myslieť, rozhodovať a tvoriť s AI.",
       price: "99",
       duration: "3.5 hodiny",
-      date: "26. februára 2026",
+      date: "31. marca 2026",
       location: "Bratislava, Slovensko",
       cta: "Idem Do Toho"
     },
@@ -283,7 +283,7 @@ const content = {
         title: "Detaily",
         items: [
           { label: "Kde", value: "SORRYWECAN Studio", subvalue: "Pečnianska 7, Bratislava" },
-          { label: "Kedy", value: "26. februára 2026", subvalue: "Streda" },
+          { label: "Kedy", value: "31. marca 2026", subvalue: "Streda" },
           { label: "Čas", value: "17:00 – 20:30", subvalue: "3.5 hodiny" },
           { label: "Cena", value: "od €99", subvalue: "na osobu" }
         ]
