@@ -140,7 +140,7 @@ const content = {
         title: "Details",
         items: [
           { label: "Where", value: "SORRYWECAN Studio", subvalue: "Pečnianska 7, Bratislava" },
-          { label: "When", value: "March 31, 2026", subvalue: "Monday" },
+          { label: "When", value: "March 31, 2026", subvalue: "Tuesday" },
           { label: "Time", value: "17:00 – 20:30", subvalue: "3.5 hours" },
           { label: "Price", value: "from €99", subvalue: "per person" }
         ]
@@ -283,7 +283,7 @@ const content = {
         title: "Detaily",
         items: [
           { label: "Kde", value: "SORRYWECAN Studio", subvalue: "Pečnianska 7, Bratislava" },
-          { label: "Kedy", value: "31. marca 2026", subvalue: "Pondelok" },
+          { label: "Kedy", value: "31. marca 2026", subvalue: "Utorok" },
           { label: "Čas", value: "17:00 – 20:30", subvalue: "3.5 hodiny" },
           { label: "Cena", value: "od €99", subvalue: "na osobu" }
         ]
