@@ -47,7 +47,7 @@ const content = {
           title: "Taste",
           time: "50 min",
           desc: "What separates good from unforgettable. Everyone has the same tools. The difference is taste, curation, and the eye for detail.",
-          lead: "Roland"
+          lead: "Tiep"
         },
         {
           num: "02",
@@ -92,17 +92,17 @@ const content = {
     },
     founders: {
       title: "Three Perspectives",
-      subtitle: "Art. Product. Transformation.",
+      subtitle: "Signal. Architecture. Navigation.",
       trust: "From the creators of campaigns for Meta, Audi, Forbes, and Samsung.",
       cards: [
         {
-          name: "Roland Vraník",
-          role: "The Creative",
-          company: "Creative Director / Founder, SORRYWECAN",
-          tagline: "Made decisions that came at a high price. Now sees what creative teams often miss.",
-          bio: "Creative director behind award-winning campaigns for Tatra banka, Meta, Audi, and Samsung. Decades connecting aesthetics with technology. Now builds with AI daily. Does in hours what used to take weeks.",
-          url: "https://sorrywecan.com/",
-          image: "/founders/roland.jpg"
+          name: "Tiep Le Dinh",
+          role: "The Signal",
+          company: "Co-Founder, Research Lab",
+          tagline: "Reads what's coming before most people see the pattern.",
+          bio: "Co-founder of Research Lab. Builds automation infrastructure and designs workflows that scale — for himself first, then for organizations. Works across finance, geopolitics, and creative strategy. Focused on one question: how to operate at a higher level with AI.",
+          url: "https://research-hub.xyz",
+          image: "/founders/tiep.jpg"
         },
         {
           name: "Ján Koscelanský",
@@ -190,7 +190,7 @@ const content = {
           title: "Vkus",
           time: "50 min",
           desc: "Čo odlišuje dobré od nezabudnuteľného. Rovnaké nástroje má každý. Rozdiel robí vkus, kurátorstvo a oko pre detail.",
-          lead: "Roland"
+          lead: "Tiep"
         },
         {
           num: "02",
@@ -235,7 +235,7 @@ const content = {
     },
     founders: {
       title: "Tri Perspektívy",
-      subtitle: "Umenie. Produkt. Transformácia.",
+      subtitle: "Signál. Architektúra. Navigácia.",
       trust: "Od tvorcov kampaní pre Meta, Audi, Forbes a Samsung.",
       cards: [
         {
