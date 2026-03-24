@@ -39,14 +39,14 @@ const content = {
       ]
     },
     session: {
-      title: "What separates the 1%.",
+      title: "Three sessions. One shift.",
       subtitle: "",
       parts: [
         {
           num: "01",
-          title: "Taste",
+          title: "Signal",
           time: "50 min",
-          desc: "What separates good from unforgettable. Everyone has the same tools. The difference is taste, curation, and the eye for detail.",
+          desc: "The new operating system. What to automate, what to delegate, what to own. Tiep opens the architecture live — the actual stack, running in real time.",
           lead: "Tiep"
         },
         {
@@ -182,14 +182,14 @@ const content = {
       ]
     },
     session: {
-      title: "Čo odlišuje to 1%.",
+      title: "Tri sessions. Jeden posun.",
       subtitle: "",
       parts: [
         {
           num: "01",
-          title: "Vkus",
+          title: "Signál",
           time: "50 min",
-          desc: "Čo odlišuje dobré od nezabudnuteľného. Rovnaké nástroje má každý. Rozdiel robí vkus, kurátorstvo a oko pre detail.",
+          desc: "Nový operačný systém. Čo automatizovať, čo delegovať, čo si nechať. Tiep otvorí architektúru naživo — skutočný zásobník, bežiaci v reálnom čase.",
           lead: "Tiep"
         },
         {
