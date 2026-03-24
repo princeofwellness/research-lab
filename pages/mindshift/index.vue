@@ -100,7 +100,7 @@ const content = {
           role: "The Signal",
           company: "Co-Founder, Research Lab",
           tagline: "Reads what's coming before most people see the pattern.",
-          bio: "Co-founder of Research Lab. Builds automation infrastructure and designs workflows that scale — for himself first, then for organizations. Works across finance, geopolitics, and creative strategy. Focused on one question: how to operate at a higher level with AI.",
+          bio: "Co-founder of Research Lab. Builds automation infrastructure and designs workflows that scale — for himself first, then for organizations. Works across tech, finance, and creative strategy. Focused on one question: how to operate at a higher level with AI.",
           url: "https://research-hub.xyz",
           image: "/founders/tiep.jpg"
         },
