@@ -236,16 +236,16 @@ const content = {
     founders: {
       title: "Tri Perspektívy",
       subtitle: "Signál. Architektúra. Navigácia.",
-      trust: "Od tvorcov kampaní pre Meta, Audi, Forbes a Samsung.",
+      trust: "Od spoluzakladateľov Research Lab a SUDOLABS.",
       cards: [
         {
-          name: "Roland Vraník",
-          role: "Umelec",
-          company: "Creative Director / Zakladateľ, SORRYWECAN",
-          tagline: "Prešiel si rozhodnutiami, ktoré mali vysokú cenu. Dnes vidí to, čo kreatívnym tímom často uniká.",
-          bio: "Kreatívny riaditeľ za oceňovanými kampaňami pre Tatra banku, Meta, Audi a Samsung. Dekády na priesečníku estetiky a technológie. Dnes buduje s AI denne. Robí za hodiny, čo kedysi trvalo týždne.",
-          url: "https://sorrywecan.com/",
-          image: "/founders/roland.jpg"
+          name: "Tiep Le Dinh",
+          role: "Signál",
+          company: "Spoluzakladateľ, Research Lab",
+          tagline: "Číta, čo prichádza, skôr než väčšina ľudí zbadá vzor.",
+          bio: "Spoluzakladateľ Research Lab. Buduje automatizačnú infraštruktúru a navrhuje workflow, ktoré škálujú. Pracuje naprieč technológiami, financiami a kreatívnou stratégiou.",
+          url: "https://research-hub.xyz",
+          image: "/founders/tiep.jpg"
         },
         {
           name: "Ján Koscelanský",
