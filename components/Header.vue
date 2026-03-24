@@ -31,7 +31,7 @@ const handleNavigation = (e) => {
 </script>
 
 <template>
-  <header class="fixed w-screen z-50 text-techblue bg-[var(--bg-color)] px-4 lg:px-6 xl:px-[32px]">
+  <header class="fixed w-screen z-[100] text-techblue bg-[var(--bg-color)] px-4 lg:px-6 xl:px-[32px]">
     <nav class="relative flex items-end justify-center pt-[21px] pb-2">
       <div class="absolute left-0 h-full flex items-center space-x-4 xl:space-x-8 opacity-0 lg:opacity-100 pointer-events-none lg:pointer-events-auto">
         <NuxtLink :class="cn('text-[11px] xl:text-[14px] tracking-widest hover:underline uppercase', currentPath == localePath('/') ? 'font-bold' : 'font-medium')" :to="localePath('/')">{{ $t('menu.home') }}</NuxtLink>
@@ -60,7 +60,8 @@ const handleNavigation = (e) => {
   </header>
 
 
-  <div class="fixed w-full h-screen text-techblue space-y-2  bg-[var(--bg-color)] z-20 text-2xl font-semibold flex flex-col justify-center items-center content-center" v-if="mobileNavVisible">
+  <Teleport to="body">
+  <div class="fixed w-full h-screen text-techblue space-y-2  bg-[var(--bg-color)] z-[200] text-2xl font-semibold flex flex-col justify-center items-center content-center" v-if="mobileNavVisible">
     <NuxtLink class="uppercase" :to="localePath('/')" @click="handleNavigation($event)">
       {{ $t('menu.home') }}
     </NuxtLink>
@@ -83,4 +84,5 @@ const handleNavigation = (e) => {
     <LanguageChooser/>
 
   </div>
+  </Teleport>
 </template>
