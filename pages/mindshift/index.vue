@@ -100,7 +100,7 @@ const content = {
           role: "The Signal",
           company: "Co-Founder, Research Lab",
           tagline: "Reads what's coming before most people see the pattern.",
-          bio: "Co-founder of Research Lab. Builds automation infrastructure and designs workflows that scale — for himself first, then for organizations. Works across tech, finance, and creative strategy. Focused on one question: how to operate at a higher level with AI.",
+          bio: "Builds automation infrastructure and designs workflows that scale — for himself first, then for organizations. Works across tech, finance, and creative strategy. Focused on one question: how to operate at a higher level with AI.",
           url: "https://research-hub.xyz",
           image: "/founders/tiep.jpg"
         },
@@ -243,7 +243,7 @@ const content = {
           role: "Signál",
           company: "Spoluzakladateľ, Research Lab",
           tagline: "Číta, čo prichádza, skôr než väčšina ľudí zbadá vzor.",
-          bio: "Spoluzakladateľ Research Lab. Buduje automatizačnú infraštruktúru a navrhuje workflow, ktoré škálujú. Pracuje naprieč technológiami, financiami a kreatívnou stratégiou.",
+          bio: "Buduje automatizačnú infraštruktúru a navrhuje workflow, ktoré škálujú. Pracuje naprieč technológiami, financiami a kreatívnou stratégiou.",
           url: "https://research-hub.xyz",
           image: "/founders/tiep.jpg"
         },
